@@ -1,0 +1,5906 @@
+[
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エリプティカルトレーナー(ペダルを踏むと足が楕円形を描くように作られている運動器具)：楽な労力",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "レジスタンス（ウェイト）トレーニング：スクワット、楽な労力",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "健康体操(例：腕立て伏せ、腹筋運動、懸垂、ランジ)：ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボールを用いた運動療法：バランスボールエクササイズ、座位運動",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "フィットネスクラブでの運動：コンディショニング教室、椅座位ベース",
+    "mets": 3.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "太極拳：全般",
+    "mets": 3.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "レジスタンス(ウェイト)トレーニング：複合的エクササイズ、様々な種類のレジスタンストレーニングを8-15回繰り返す",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "サーキットトレーニング：パルクールタイプ、ほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "フィットネスクラブでの運動：コンディショニング教室",
+    "mets": 5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、50 - 99ワット、ほどほどからきつい労力 ",
+    "mets": 6.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、100 - 149ワット、きつい労力 ",
+    "mets": 9
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "スポーツ",
+    "category_small": "ゴルフ：歩行、ゴルフカートを手で引く",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "スポーツ",
+    "category_small": "ピックルボール：競技",
+    "mets": 5.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "セルフケア",
+    "category_small": "着替え：立位、または座位",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ダンス",
+    "category_small": "社交ダンス（タンゴ、スローワルツ、フォックストロット）",
+    "mets": 6
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ダンス",
+    "category_small": "ダンス教室：全般",
+    "mets": 6.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ダンス",
+    "category_small": "スムースダンス（マズルカ、ウィンナ・ワルツ、ポルカ）",
+    "mets": 7.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、上肢を使う（楽からほどほどの労力）",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、全身を使う（ほどほどの労力）",
+    "mets": 5.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、全身を使う（ほどほどからきつい労力）",
+    "mets": 7.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：5.8 km/時（10.3 分/km）",
+    "mets": 8.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：11.3 km/時（5.3 分/km）",
+    "mets": 15.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "運搬",
+    "category_small": "移動のために歩く：4.5 - 5.2 km/時、ほどほどのペース、平らで固い地面 ",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "掃除：モップがけ、立位、楽な労力",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "食料品・食器の片付け(例：食料品の運搬、食器を棚へしまう)",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "窓掃除：窓掃除、全般",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "洗濯：洗濯物を干す、衣類の手洗い、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "食料品の買い物：カートを使う場合と使わない場合どちらでも、立位や歩行を伴う",
+    "mets": 3.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "家具のほこりを取る、または磨く：全般",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "ベッドメイク：リネンを交換する",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "掃除：カーペットやフロアの掃き掃除、全般",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "掃除：モップがけ、立位、ほどほどの労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "掃除機をかける：全般、ほどほどの労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "掃除：ゴミ捨て",
+    "mets": 4.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "家事",
+    "category_small": "家具の移動：家財道具、収納箱",
+    "mets": 5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "DIY",
+    "category_small": "家の修繕：全般、ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、30 - 50ワット、ほどほどの労力 ",
+    "mets": 4.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、51 - 89ワット、ほどほどからきつい労力 ",
+    "mets": 4.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、全般、ほどほどの労力",
+    "mets": 5.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、90 - 100ワット、きつい労力 ",
+    "mets": 6.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、101 - 160ワット、きつい労力 ",
+    "mets": 7.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "ガーデニング：土をまぜる",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "植付：苗や苗木の培養土への植付や移植、楽からほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "灌木や木の刈り込み：剪定バサミを使う",
+    "mets": 3.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "芝生や庭への水やり：立位または歩行",
+    "mets": 3.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "根覆いをする",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "木から果物を摘む、果物や野菜を摘む、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "灌木や木の刈り込み：電動カッターを使う、リーフブロワーを使う、芝生エッジャーを使う、ほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "ガーデニング：全般、ほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "芝や落ち葉をレーキ（熊手）でかき集める：ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "庭掘り：鋤で土を掘る、庭を埋める、堆肥をやる、ほどほどの労力",
+    "mets": 4.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "ガーデニング：花壇をつくる",
+    "mets": 4.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "除草をする：耕す、楽からほどほどの労力",
+    "mets": 4.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "庭仕事：全般、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "歩行：肥料をまく",
+    "mets": 5.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "芝刈り：全般",
+    "mets": 6.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "芝生や庭の手入れ",
+    "category_small": "庭掘り：鋤で土を掘る、庭を埋める、堆肥をやる、きつい労力",
+    "mets": 7.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：ダウンヒル、アルペン、スノーボード、ほどほどの労力、全般、滑走時",
+    "mets": 5.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：ダウンヒル、アルペン、スノーボード、きつい労力、滑走時",
+    "mets": 6.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "雪かきをする：人力で、きつい労力",
+    "mets": 8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：歩行器をつかって",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：1.6 km/時未満、水平な地面、散策、とてもゆっくり ",
+    "mets": 3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：車輪付き歩行器をつかって",
+    "mets": 3.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：杖をつかって",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：歩行器をつかって",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：車輪付き歩行器をつかって",
+    "mets": 3.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：3.2 km/時、ゆっくりなペース、平らで固い地面 ",
+    "mets": 3.8
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：ゆっくりなペース",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：1.6 - 3.1 km/時、ゆっくりなペース、平らで固い地面 ",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：のんびりと、自分の選んだペースで、全般",
+    "mets": 4
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：3.6 - 4.4 km/時、平らで固い地面 ",
+    "mets": 4.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：2.4 - 3.2 km/時、2.5 - 5.0 %の傾斜 ",
+    "mets": 5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：4.5 - 5.2 km/時、ほどほどのペース、平らで固い地面 ",
+    "mets": 5.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：速いペース、全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：5.3 - 6.0 km/時、速い、平らで固い地面、運動目的の歩行 ",
+    "mets": 6
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：はやいペース",
+    "mets": 6.5
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、スキーポールをつかって、ノルディックウォーキング",
+    "mets": 7
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：6.5 - 6.8 km/時、平らで固い地面、とても速いペース ",
+    "mets": 7.3
+  },
+  {
+    "category_large": "高齢者",
+    "category_medium": "歩行",
+    "category_small": "歩行：7.3 km/時、平らで固い地面、とてもとても速い ",
+    "mets": 9
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手こぎ自転車：8 km/時 ",
+    "mets": 3
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：スラロームコース",
+    "mets": 3.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：エルゴメータ",
+    "mets": 3.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：20 - 26 ワット",
+    "mets": 3.3
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "スキルパルクール",
+    "mets": 3.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、4.0 - 4.9 km/時 ",
+    "mets": 3.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、5.8 km/時 ",
+    "mets": 3.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、4.0 km/時、傾斜3% ",
+    "mets": 3.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋外コース、電動アシスト付、5.4 km/時 ",
+    "mets": 3.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "腕エルゴメータ：40 - 48 ワット",
+    "mets": 3.5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、6.0 km/時 ",
+    "mets": 3.5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：ダイナモメータ上で、電動アシスト付、30ワット",
+    "mets": 3.5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手こぎ自転車：エルゴメータ、全般",
+    "mets": 3.6
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：ダイナモメータ上で、4.8 km/時 ",
+    "mets": 3.6
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手動レバー式車いす：20ワット",
+    "mets": 3.6
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋外トラック、4.0 - 4.3 km/時 ",
+    "mets": 3.8
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、2.2 - 2.9 km/時、傾斜4.7% ",
+    "mets": 3.8
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：50 ワット",
+    "mets": 3.9
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋外トラック、3.4 km/時 ",
+    "mets": 4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋外トラック、6.0 km/時 ",
+    "mets": 4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：30 - 35 ワット",
+    "mets": 4.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、7.0 - 7.9 km/時 ",
+    "mets": 4.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、2.2 - 2.9 km/時、傾斜6.3% ",
+    "mets": 4.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "腕エルゴメータ：自分で選んだ強度で、きつい強度",
+    "mets": 4.3
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋外トラック、5.5 km/時 ",
+    "mets": 4.3
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "腕エルゴメータ：80 ワット",
+    "mets": 4.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "サンドバッグを叩く",
+    "mets": 4.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、3.6 km/時、傾斜4.7% ",
+    "mets": 4.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手動レバー式車いす：25ワット",
+    "mets": 4.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手こぎ自転車：レース",
+    "mets": 4.5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "腕エルゴメータ：60 - 64 ワット",
+    "mets": 4.6
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋内コース、6.5 km/時 ",
+    "mets": 4.8
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、3.6 km/時、傾斜6.3% ",
+    "mets": 4.8
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手動レバー式車いす：30ワット",
+    "mets": 5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、3.6 km/時、傾斜6.3% ",
+    "mets": 5.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：トレッドミルの上で、3.6 km/時、傾斜8.4% ",
+    "mets": 5.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手動レバー式車いす：35ワット",
+    "mets": 5.3
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "腕エルゴメータ：96 ワット",
+    "mets": 5.4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：屋外トラック、8.0 km/時 ",
+    "mets": 5.9
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "手こぎ自転車：16 km/時 ",
+    "mets": 7.5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "車いす移動",
+    "category_small": "車いすをこぐ：レース",
+    "mets": 7.9
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "スポーツ",
+    "category_small": "ダンス：はやいペース",
+    "mets": 3.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：形式ばらない",
+    "mets": 3.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "スポーツ",
+    "category_small": "テニス",
+    "mets": 4.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール",
+    "mets": 5.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "スポーツ",
+    "category_small": "フェンシング",
+    "mets": 7.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "スポーツ",
+    "category_small": "座位で行うノルディックスキー",
+    "mets": 11.8
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "外出",
+    "category_small": "車いすをこぐ：歩道",
+    "mets": 3.2
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "外出",
+    "category_small": "車いすをこぐ：屋外、8%の横断勾配",
+    "mets": 3.5
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "外出",
+    "category_small": "車いすをこぐ：芝生の上",
+    "mets": 4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "外出",
+    "category_small": "車いすをこぐ：屋外、12%の横断勾配",
+    "mets": 4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "外出",
+    "category_small": "車いすをこぐ：上り坂",
+    "mets": 4
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "家事",
+    "category_small": "モップ掛け",
+    "mets": 3
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "家事",
+    "category_small": "着替え",
+    "mets": 3.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "家事",
+    "category_small": "車いすへの/車いすからの移乗",
+    "mets": 3.1
+  },
+  {
+    "category_large": "車椅子利用者",
+    "category_medium": "家事",
+    "category_small": "家具の外出：家財道具、収納箱",
+    "mets": 3.7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "自重トレーニング：スクワット、ランジ、腕立て伏せ、クランチなど、全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ヨガ：ホット",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ワンドエクササイズ：ライフ・ビルド・ライン（ヌンチャク状の運動器具）",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "健康体操：楽からほどほどの労力、全般(例：背筋を使用した運動)、階段の上り下り",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "サーキットトレーニング：楽な労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "カーブスの所定のトレーニング",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "レジスタンス(ウェイト)トレーニング：複合的エクササイズ、様々な種類のレジスタンストレーニングを8-15回繰り返す",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "腕エルゴメータ：ハンドバイク、45ワット",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ヨガ：スリヤナマスカー",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "健康体操(例：腕立て伏せ、腹筋運動、懸垂、ランジ)：ほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "家庭での運動：全般",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "映像を用いた運動：テレビのコンディショニングプログラム(例：カーディオ・レジスタンストレーニング（有酸素運動と筋力トレーニングを取り入れたエクササイズ）)、ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ヨガ：パワー",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "椅子立ち上がり運動：18 - 24回/分",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "上肢の運動：エアダインエルゴメータで腕のみを用いて毎分40回転、ほどほどの強度",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ポールダンス、運動教室",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エアロビックダンス：弱い衝撃、ほどほどの労力",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "軍人用障害物エクササイズ、ブートキャンプトレーニングプログラム",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "サーキットトレーニング：ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エリプティカルトレーナー(ペダルを踏むと足が楕円形を描くように作られている運動器具)：ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "レジスタンス(ウェイト)トレーニング：スクワット、ゆっくりあるいは瞬発的な努力で",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "フィットネスクラブでの運動：全般、体操やウェイトトレーニングを組み合わせた1回あたりに行う運動",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、100ワット未満、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "アクアビクス：水中での健康体操、水中運動",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ニュージーランド原住民の身体活動(伝統舞踊、例：ハカ・ポウヒリ、ポイ、モテアテアなど)：全般、ほどほどの労力",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "有酸素運動：ステップ運動、10センチの高さ",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "フィットネスクラブでの運動：全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ズンバ：ホームビデオ",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "レジスタンス(ウェイト)トレーニング：サーキット、レシプロカル、抹消心肺機能(PHA)トレーニング",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "フラフープをする",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "サーキットトレーニング：自重トレーニング",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "レジスタンストレーニング(ウェイトリフティング、フリーウェイト、マシーンの使用）、パワーリフティング、ボディービルディング、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "スリムナスティックス(低インパクトの有酸素性運動)、ジャザサイズ(ジャズダンスを用いたエクササイズ)",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "映像を用いた運動：テレビのコンディショニングプログラム(例：カーディオ・レジスタンストレーニング（有酸素運動と筋力トレーニングを取り入れたエクササイズ）)、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "自重トレーニング：スクワット、ランジ、腕立て伏せ、クランチなど、高強度",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ズンバ：運動教室",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "スキーマシーンを用いた運動：全般",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "運動教室の指導(例：エアロビクス、水中運動)",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ニュージーランド原住民の身体活動：全般、きつい労力",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "高強度インターバルトレーニング：ほどほどの労力",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "有酸素運動：全般",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "有酸素運動：ステップ運動、15-20センチの高さ",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、全般、きつい労力",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "健康体操(例：腕立て伏せ、腹筋運動、懸垂、ジャンピングジャック(ジャンプしながら手足を開閉、バーピー、バトルロープ)：きつい労力",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "サーキットトレーニング：ケトルベルを含む、短時間の休息を含む有酸素運動、全般、きつい強度",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、100-149ワット、きつい労力",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ベンチステップ教室：全般",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "フィットネスクラブでの運動：コンディショニング教室",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エアロビックダンス：強い衝撃、きつい労力",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ヨガ：ハタ、高強度",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "VRフィットネスアプリ（スーパーナチュラル）：フロー、ボクシング、きつい労力",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "パウンド（ドラムスティックを用いたエクササイズ）：ドラム動作をしながらピラティスとbody movementを組み合わせる",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "有酸素運動：ステップ運動、25-30センチの高さ",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エリプティカルトレーナー(ペダルを踏むと足が楕円形を描くように作られている運動器具)：きつい労力",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "なわとび、デジジャンプマシン、120回/分",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "インパルストレーニングシステム、イナーシャルエクササイズトレーナー",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ステアートレッドミルエルゴメータ(階段昇りの運動)：全般",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エクサキューブ：ワークアウトシリーズ",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボールを用いた運動療法：バランスボールエクササイズ、高強度",
+    "mets": 9.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ケトルベルスウィング",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "エアロビックダンス：4.5-6.8kgの重りを身に着けて",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "スキーエルゴメータ、クロスカントリー、ダブルポーリング走法、ゆっくりからほどほどの速さ",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "スライドボードを用いた運動：全般",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "なわとび：全般",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、150-199ワット、きつい労力",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "シャトルラン：前後方向、横方向",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "高強度インターバルトレーニング：バーピー、マウンテンクライマー、スクワットジャンプ、タバタ式、きつい労力",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ブラックボックス（没入型VRエクサゲームシステム）：きつい労力",
+    "mets": 13
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "ボート漕ぎ：ローイングエルゴメータ、200ワット以上、非常にきつい労力",
+    "mets": 14
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "筋トレ・フィットネス",
+    "category_small": "スキーエルゴメータ、クロスカントリー、ダブルポーリング走法、速いから最大速度",
+    "mets": 18
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボウリング",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フリスビー：全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "蹄鉄を投げる：輪投げ",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "シャッフルボード(長い棒で円盤を突いて点数を書いた枠の中に入れるゲーム、主に船の甲板でする) ",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バレーボール：試合以外、6-9人チームで練習、全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "クロッケー",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "芝生でのボウリング：ボッチェボール、屋外",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スポーツ観戦：とてもエキサイトする、感情的になる、身体の動きを伴う",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "太極拳、気功、全般",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ゴルフ：小規模のゴルフ（ミニゴルフ）、ゴルフ練習場（打ちっぱなし場）",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ゴルフ：電動カートを使う",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ハンググライダー",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スカイダイビング、ベースジャンピング、バンジージャンプ",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ウォーキングフットボール・ウォーキングサッカー",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボウリング：屋内、ボウリング場で",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フリスビーゴルフ",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "体操：全般",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "乗馬：ウォーキング（常歩）",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "コーチング：アメリカンフットボール、サッカー、バスケットボール、野球、水泳等",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "カーリング",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "アメリカンフットボール：タッチフットボール、フラッグフットボール、楽な労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ハッキーサック(フットバッグ) ",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ハイロープコース：複合的な要素からなる",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ジャグリング",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "モトクロス：オフロードのモータースポーツ、オール・テライン・ビークル(オフロードカー)、全般",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロデオスポーツ：全般、楽な労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ソフトボール：実践練習",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ソフトボール：審判",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "卓球",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バレーボール",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "陸上競技(例：砲丸投げ、円盤投げ、ハンマー投げ)",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "アーチェリー：狩猟以外",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ゴルフ：歩行、クラブを運ぶ",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ゴルフ：全般",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ゴルフ：歩行、ゴルフカートを手で引く",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "馬の世話：管理、鞍付け作業",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テニス：ダブルス",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "クリケット：バッティング、ボウリング、フィールディング",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：シュート練習",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：ラペリング(降下)",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スケートボード：全般、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ソフトボール、または野球：速い、あるいは遅い投球、全般、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テニス：ボールを打つ、試合以外、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "武術：様々な種類、ゆっくりなペース、初心者、実践練習",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "オートバイレース：スーパーモト",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "アラスカ・ネィティブ・ゲーム：エスキモーオリンピック、全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バドミントン：試合以外でのシングルとダブルス、全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "乗馬：全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "カンフー体操",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロデオスポーツ：全般、ほどほどの労力",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：審判をする",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：サンドバッグを叩く",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "こどもの遊びを大人が遊ぶ(例：けんけん遊び、フォースクエア、ドッジボール、公園の遊具、T-ボール、テザーボール、おはじきやビー玉遊び、ジャックス、アーケードゲーム)：ほどほどの労力",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "乗馬：トロッティング（速足）",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：岩に登る、横移動をする、低～中難易度",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：試合以外、全般",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "チアリーディング：体操的な動き、競技",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ドラッグレース：車を押す、運転する",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フェンシング：全般",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "乗馬：レイニング（馬術競技種目のひとつ）",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "パドルボール：形式ばらない、全般",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スケートボード：競技、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ソフトボール：投球",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "太極拳：楊式太極拳",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テニス：ダブルス",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バレーボール：試合、体育館で",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "レスリング：試合(1試合=5分)",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "陸上競技(例：高跳び、幅跳び、三段跳び、槍投げ、棒高跳び)",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ラグビー：タッチ、試合以外",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "トランポリン：レクリエーション",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "剣道：基本稽古、ほどほどの労力",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロープを用いたクライミング",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スケートボード：ロングボード、13.3 km/時、ゆっくりとした速さ",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テニス：全般、ほどほどの労力",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バドミントン：競技",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：審判をする",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：サンドバッグを叩く、60回/分",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ブルームボール",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "キックベースボール",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ネットボール",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ラケットボール：全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロデオスポーツ：全般、きつい労力",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スケート：ローラースケート",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "サッカー：形式ばらない、全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ウォーリーボール(壁で囲まれたコートで行うバレーボール)：全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "乗馬：キャンター（駈足）、ギャロップ（襲歩）",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "キックボクシング",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：岩に昇る、高難易度",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スカッシュ：全般",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：全般",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ローラーブレード：インラインスケート、14.4 km/時、レクリエーショナルなペース",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：スパーリング",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フットサル",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ホッケー：フィールド",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：試合",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "コーチング：選手と一緒に積極的にプレーに参加する",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "アメリカンフットボール：試合",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "アメリカンフットボール：タッチフットボール、フラッグフットボール、全般(Taylor Code 510)",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フリスビー：アルティメット",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ハンドボール：チーム練習",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ホッケー：氷上、全般",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ラクロス",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ポロ(馬に乗りながら行うホッケー)：馬の背に乗って",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング、または山登り",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テニス：全般、試合",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テニス：シングルス",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バレーボール：ビーチ、砂場で",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "縄跳び：ゆっくりなペース、毎分100ステップ未満、両足跳び、リズムに合わせて跳ぶ",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ラグビー：ユニオン、チーム練習、試合",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スケートボード：ロングボード、16.2 km/時、一般的な速さ",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：サンドバッグを叩く、120回/分",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "オートレーシング：オープンホイールカー(フォーミュラカー) ",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：フリークライミング",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バドミントン：競技、試合",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "乗馬：ジャンプ",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "オリエンテーリング",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "バスケットボール：反復練習、実践練習",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：ラウンド（3分）を想定した、エクササイズ",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "サッカー：試合",
+    "mets": 9.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "剣道：切り返し、高強度",
+    "mets": 9.6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フェンシング：エペ、競技",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ローラーブレード：インラインスケート、17.7km/時、ほどほどのペース、運動トレーニング",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ホッケー：氷上、試合",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "パドルボール：試合",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ラケットボール：試合",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "縄跳び：二重とび、あるいはそれ以上",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "陸上競技(例：障害物競争、ハードル)",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "武術：様々な種類、ほどほどのペース(例：柔道、柔術、空手、キックボクシング、テコンドー、タエ・ボー、ムエタイ)",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "競歩：3.1 m/秒（11.2 km/時）",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "トランポリン：競技",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "フロアボール",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：スピードクライミング、とても難しい",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：トレッドウォール（クライミングマシーン）、4 - 6 m/分",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ロッククライミング：トレッドウォール（クライミングマシーン）、7 - 10 m/分",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スケートボード：ロングボード、13.3 km/時、速い",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：サンドバッグを叩く、180回/分",
+    "mets": 10.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "柔道",
+    "mets": 11.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "剣道：かかり稽古、とても高い強度",
+    "mets": 11.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "縄跳び：ほどほどのペース、毎分100 - 120ステップ、全般、両足跳び、単純な跳ねる動作",
+    "mets": 11.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ハンドボール：全般",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ハイ・アライ(バスク・ ペロタ) ",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "スカッシュ",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ボクシング：リング上で、全般",
+    "mets": 12.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "縄跳び：速い、毎分120 - 160ステップ",
+    "mets": 12.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ローラーブレード：インラインスケート、21.0-21.7km/時、速い、運動トレーニング",
+    "mets": 12.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "競歩：3.7 m/秒（13.4 km/時）",
+    "mets": 13.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "テコンドー：組手",
+    "mets": 14.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "競歩：4.0 m/秒（14.5 km/時）",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "スポーツ",
+    "category_small": "ローラーブレード：インラインスケート、24.0 km/時、最大努力で",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "社交ダンス：ゆっくり(例：ワルツ、フォックストロット、スローダンス、サンバ、タンゴ、ルンバ、19世紀ダンス、マンボ、チャチャ)",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "カリビアンダンス(アバクア、ビギン、ベルエアー、ボンゴ、ブルッキンズ、カリビアン・クアドリル、ディンキ・ミニ、ギア、ガンベイ、イボ、ジャンクヌー、クミナ、オレイシャ、ジャンブ)",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "コンテンポラリーダンス：全般",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "コンテンポラリー・ダンス：ナイトクラブ",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "民族舞踊や伝統舞踊(例：ギリシャダンス、中近東舞踊、フラダンス、サルサダンス、メレンゲダンス、ボンバ・イ・プレナ舞踊、フラメンコ、ベリーダンス、スウィングダンス)",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "ジャズダンス：全般",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "タップダンス",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "サルサダンス：パートナーと踊る",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "バレエ：モダン、ジャズ、全般、リハーサルや教室",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "フォークダンス：ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "中国の広場ダンス：バレエとチベット舞踊",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "社交ダンス：速い",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "アニシナベ族のジングルダンス：速いペース、女性によるアメリカ原住民の伝統舞踊、ほどほどの労力",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "スクエアダンス：アメリカ西部式、カントリーダンス",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "ポリネシアンダンス：ゆっくりなハワイアン・フラ、マオリ・ハカ、トンガ",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "アフロ：キューバのサルサダンス（キューバのチャチャチャ、マンボ、アフロルンバ、アクセントをつけたソン、オリーシャ・サントの動き）",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "社交ダンス：レクリエーション（ワルツ、フォックストロット、チャチャ、スウィング）",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "バレエエクササイズ（プリエ、タンデュ、ジュッテ、ロン・ドゥ・ジャンブ、フォンデュ、グラン・バットマン、グラン・アダージュ、ソテ、タン・ルベ）",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "サルサダンス：映像に合わせて踊る",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "バレエ：モダン、ジャズ、パフォーマンス、きつい労力",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "ポリネシアンダンス：はやいハワイアン・フラ、サモアン・ササ、はやいフィジー・スタイル、フィリピンのバンブーダンス",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "中国の広場ダンス：エアロビックダンス",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "フラメンコダンス",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "ポリネシアンダンス：サモアン・スラップダンス、タヒチアンダンス",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "ナイトクラブやフォークダンス：きつい労力（例：ナイトクラブ、ディスコ、フォーク、ラインダンス、アイリッシュ・ステップダンス、ポルカ、コントラ）",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "ミュージカル：歌唱/ダンス",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "社交ダンス：競技、全般",
+    "mets": 11.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ダンス",
+    "category_small": "社交ダンス：ダンススポーツ競技（モダン・ワルツ、タンゴ、ウィンナ・ワルツ、スロー・フォックス、クイック・ステップ、サンバ、チャチャ、ルンバ、パソドブレ、ジャイブ）",
+    "mets": 13
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、上肢を使う（楽からほどほどの労力）",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、全身を使う（ほどほどの労力）",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、全身を使う（ほどほどからきつい労力）",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "eスポーツ",
+    "category_small": "アクティブeスポーツ：モーションコントローラを使ったゲーム、全身を使う、エクサゲーム、ワークアウト、ダンス（きつい労力）",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "eスポーツ",
+    "category_small": "コンディショニング・エクササイズ、VRフィットネス、きつい労力",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩行と立位の組み合わせ：ボランティア活動",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "立位：楽からほどほどの労力の作業(例：梱包する、組み立てる、修理する、イスや家具を組み立て)",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "立位：子どもの世話、活動時に限る",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩いたり、走ったりして子どもと遊ぶ：ほどほどの労力、活動時に限る",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "立位：ほどほどの労力の作業(例：22.7kgのものを持ち上げる、手際よくものを組み立てる)",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩行：4.1km/時(68m/分)、ゆっくりと、11.4kg以下のものを持ちながら",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩行：4.5-5.5km/時(76-92m/分)、ほどほどの速さ、何も持たずに",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "立位：ほどほどからきつい作業",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩行：4.9km/時(81m/分)、ほどほどの速さ、11.4kg以下のものを持ちながら、何かを押しながら",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩行：5.7km/時(95m/分)、速い、11.4kg以下のものを運ぶ",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩行：5.7-6.3km/時(95-105m/分)、速い、何も持たずに",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ボランティア活動",
+    "category_small": "歩いたり、走ったりして子どもと遊ぶ：きつい労力、活動時に限る",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ジョギング：4.2-6.0km/時 (70-99m/分) ",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ジョギング：ミニトランポリンの上で",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ジョギング：その場で",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング・ジョギング：カーブトレッドミル、4.9 - 6.3 km/時",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：下り坂、8.1 - 9.6km/時、傾斜10 - 15％",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ジョギングと歩行の組み合わせ(ジョギングは10分未満)",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：6.5-6.8km/時 (107-113m/分)",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング・ジョギング：カーブトレッドミル、6.5 - 7.9 km/時",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ジョギング：全般、自分で選んだペースで",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：下り坂、9.7 - 11.2km/時、傾斜10 - 15％",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：7.0-7.8km/時 (115-129m/分)",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：裸足、5.7 - 9.6 km/時",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング(Taylor Code 200)",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：トレーニング、車いすやベビーカーを押す",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：ジョギングストーラー（ベビーカー）、屋内、8.1 km/時",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：8.1-8.4km/時 (134-139m/分)",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：8.1 - 9.6 km/時、1.0 - 3.0 kgのバックパックを背負って",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、1.0 - 1.3km/時、傾斜30％",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：8.9-9.4km/時 (147-155m/分)",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：下り坂、11.3 - 14.4km/時、傾斜10 - 15％",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：ジョギングストーラー（ベビーカー）、屋内、9.7 km/時",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：9.7-10.2km/時 (161-169m/分)",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：クロスカントリー",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：下り坂、9.7 - 12.8km/時、傾斜3 - 9％",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：9.7 - 11.2 km/時、1.0 - 3.0 kgのバックパックを背負って",
+    "mets": 9.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：11.3 - 12.8 km/時、1.0 - 3.0 kgのバックパックを背負って",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：トラック、チーム練習",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：ジョギングストーラー（ベビーカー）、屋外、8.1 km/時",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、7.3km/時、傾斜5％",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、1.3 - 1.6km/時、傾斜30％",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：10.9km/時 (180m/分)",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：自分で選んだペースで",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：11.3km/時 (188m/分)",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：カーブトレッドミル、8.1 - 9.6 km/時",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：ジョギングストーラー（ベビーカー）、屋外、9.7 km/時",
+    "mets": 11.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "スキップ：8.9- 9.7 km/時 Skipping, 5.5-6.0 mph",
+    "mets": 11.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：12.2km/時 (201m/分)",
+    "mets": 11.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、1.6 - 1.9km/時、傾斜30％",
+    "mets": 11.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：13.0km/時 (214m/分)",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：カーブトレッドミル、11.3 - 12.8km/時",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：13.0 - 14.4 km/時、1.0 - 3.0 kgのバックパックを背負って",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：裸足、9.7 - 12.8 km/時",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：13.9km/時 (231m/分)",
+    "mets": 12.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：14.6km/時 (241m/分)",
+    "mets": 13
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "トライアスロン：ランニング",
+    "mets": 13
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：マラソン",
+    "mets": 13.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、9.7km/時、傾斜5％",
+    "mets": 13.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、1.9 - 2.3km/時、傾斜30 - 40％",
+    "mets": 13.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：裸足、13.0 - 14.4 km/時",
+    "mets": 13.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：下り坂、13.0 - 17.0 km/時、傾斜3 - 9％",
+    "mets": 13.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：カーブトレッドミル、13.0 - 14.4 km/時",
+    "mets": 14
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：15.1-15.6km/時 (249-257m/分)",
+    "mets": 14.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：16.2km/時 (268m/分)",
+    "mets": 14.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、2.3 - 2.6km/時、傾斜30％",
+    "mets": 14.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：階段を上がる",
+    "mets": 15
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、11.3km/時、傾斜5％",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：丘陵地帯、高低差100m以内",
+    "mets": 16
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、2.6km/時より速い、傾斜10 - 30％",
+    "mets": 16.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：17.8km/時 (295m/分)",
+    "mets": 16.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：カーブトレッドミル、14.6 - 16.0 km/時",
+    "mets": 16.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：上り坂、8.1 - 9.6km/時、傾斜15％",
+    "mets": 17.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：トラック、500 - 1500m走、競技",
+    "mets": 18
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：19.4km/時 (322m/分)",
+    "mets": 18.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：トラック、2000 - 3000m走、競技",
+    "mets": 19.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：21.1km/時 (348m/分)",
+    "mets": 19.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ランニング",
+    "category_small": "ランニング：22.7km/時 (375m/分)",
+    "mets": 23
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "移動のために歩く：4.5-5.2km/時、ほどほどのペース、平らで固い地面",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "運搬",
+    "category_small": "格納庫から小型飛行機を押し出す、押し戻す",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "運搬",
+    "category_small": "人力車を曳く",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "電動アシスト付自転車による移動",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車による移動：楽な労力",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車による移動：きつい労力",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "打楽器の演奏(例：ボンゴ、コンガ、ベンベ)：ほどほどの労力、座位",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "ギターの演奏：ロックンロールバンド、立位",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "トロンボーンの演奏：立位",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "マーチングバンド：楽隊長、歩行",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "ドラムの演奏：座位",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "マーチングバンド：バトントワリング、歩行、ほどほどのペース、全般",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "マーチングバンド：楽器演奏、歩行、速いペース、全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "音楽活動",
+    "category_small": "打楽器の演奏：コンサート、ライブ",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "掃除機掛け：全般、ほどほどの労力",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "動物を解体処理する：小さい動物",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "窯でインドパンや他の食材を調理する",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "ベッドメイク：リネンを交換する",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "ガレージ、歩道や家の周りの掃除",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "歩行を含む家財道具の片付け：ほどほどの労力",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "小さな子どもを抱き抱えて移動する：体重6.8kg以上の子ども",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "高齢者や障がい者(成人)の介護：入浴、着替え、ベッドへの/ベッドからの移乗、活動中のみ",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "掃除：カーペットやフロアの掃き掃除、全般",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "窓掃除：窓掃除、全般",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "いろいろな家事を同時にこなす：ほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "掃除：家や山小屋の掃除、全般、ほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "台所での活動：全般(例：調理、皿洗い、掃除)、ほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "食料品の買い物（カート使用の有無を問わない）：4.5kg程度のバッグを運ぶ、立位や歩行を伴う",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "掃除：重いまたは大きいものの掃除(例：洗車、車庫掃除)、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "掃除：モップがけ、立位、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "調理や食事の準備：ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "食料品を運ぶ：水平、歩行",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "床磨き：手や膝をついて、浴室や浴槽磨き、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "歩行：ほどほどの労力の作業、掃除以外(外出の準備、戸締り、窓の施錠、など)",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "歩行やランニング：子どもと遊ぶ、ほどほどの労力、活動時に限る",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "子どもの世話：立位、着替えさせる、風呂に入れる、ブラシをかける、食事を食べさせる、たまに子どもを抱える、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "立位：犬を入浴させる",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "掃除：掃き掃除、はやく、ほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "立位：荷づくり、または荷ほどき、たまに軽い家財道具の持ち上げ、車への荷物の積み降ろし、ほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "皮をなめす：全般",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "洗濯：ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "歩行やランニング：動物と遊ぶ、ほどほどの労力、活動時に限る",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "いろいろな家事を同時にこなす：きつい労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "床磨き：立位、ゆっくり歩く、電気研磨機を使っての床磨き",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "部屋の片づけ",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "メープルシロップづくり(バケツや木材の運搬も含む)",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "運搬：軽い荷物を持ち上げる",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "歩行やランニング：動物と遊ぶ、きつい労力、活動時に限る",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "食料品を上の階へ運ぶ",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "家具の移動：家財道具、収納箱",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "歩行やランニング：子どもと遊ぶ、きつい労力、活動時に限る",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "動物を解体処理する：大きい動物、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "床磨き：手や膝をついて、浴室や浴槽磨き、きつい労力",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "家事",
+    "category_small": "家財道具を上の階へ運搬する：収納箱や家具を運ぶ",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "飛行機の修理",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "大工仕事：全般、作業場で",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "釘を打つ",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "道具を修理する",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "配管作業：全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "防水シートの設置および取り外し：ヨット",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "自動車の修理：楽からほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "大工仕事：戸棚や家具の仕上げ塗装をする",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "室内の塗装、壁紙張り、ペンキをこすり落とす",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "配線工事：ケーブルの取り付けや接合",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "大工仕事：屋外、フェンスの設置",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "タイルやリノリウム(仕上げ材)をはる",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "自動車の整備",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "大工仕事：家の改装作業、ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "コーキング：丸太小屋以外",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "家の修繕：全般、ほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "カーペットを敷く、あるいは片付ける",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "塗装する",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "研磨機で床を磨く",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "ヨットやモーターボートの汚れを落とす、あるいはペイントする",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "ヨットや飛行機の洗浄およびワックスがけ",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "フェンスの洗浄、フェンスを塗装する、ほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "コーキング：丸太小屋の水漏れを防止する",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "側溝の掃除",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "ガレージで物を探す",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "雨戸を設置する",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "内壁に石膏板を取り付ける",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "塗装：家の外壁",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "シャベルで土を一面に広げる",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "大工仕事：屋外",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "大工仕事：のこぎりで硬材を切る、木材の面取りやドリルで穴をあける、ほどほどからきつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "家の修繕：全般、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "DIY",
+    "category_small": "屋根ふき",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：レジャー、8.9km/時",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、25-30ワット、非常に楽から楽な労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：16.2km/時未満、レジャー、通勤、娯楽",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "電動アシスト付自転車をこぐ：強めの電動アシスト",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、50ワット、楽な労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：伸張性収縮のみ、200ワット",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自分で選んだ楽なペースで",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "一輪車をこぐ",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、60ワット、楽からほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：短縮性収縮のみ、100ワット",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：非舗装道や農道、ほどほどの速さ",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：レジャー、15.2km/時",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、70-80ワット",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "電動アシスト付自転車をこぐ：軽めの電動アシスト",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、90-100ワット、ほどほどからきつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：通勤、自分で選んだペースで",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：16.2-19.3km/時、レジャー、ゆっくり、楽な労力",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "電動アシスト付自転車をこぐ：電動アシストなし",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、全般",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、101-125ワット",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自分で選んだほどほどのペースで",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：19.4-22.5km/時、レジャー、ほどほどの労力",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、126-150ワット",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：モトクロス用自転車",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：山道、全般",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：19.4km/時、サドルに座る、ブレーキまたはドロップハンドルに手をかける、ペダル毎分80回転",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：バーチャルサイクリング、屋内自転車エルゴメータ",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：高強度インターバルトレーニング",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自分で選んだ激しいペースで",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：19.4km/時、立ってこぐ、ブレーキに手をかける、ペダル毎分60回転",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、RPM/スピンバイククラス",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：22.7-25.8km/時、レース、レジャー、速い、きつい労力",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、151-199ワット",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、200-229ワット、きつい労力",
+    "mets": 10.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：短縮性収縮のみ、200ワット",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：25.9-30.8km/時、レース／ドラフティングなし、または30.8km/時より速い速度でのドラフティングあり、とても速い、レース全般",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、230-250ワット、非常にきつい労力",
+    "mets": 12.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、270-305ワット、非常にきつい労力",
+    "mets": 13.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：山道、上り坂、きつい労力",
+    "mets": 14
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：山道、競技レース",
+    "mets": 16
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：自転車エルゴメータ、325ワットより高い、非常にきつい労力",
+    "mets": 16.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "自転車",
+    "category_small": "自転車をこぐ：32.4km/時より速い、レース、ドラフティングなし",
+    "mets": 16.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "噴射式除雪機の操縦",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "歩行：肥料をまく，または芝生に苗を植える、機械を押しながら",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "歩行や立位を伴いながら庭の手入れをする：楽な、花や野菜を摘む",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "歩行：ガーデニングの道具を集める",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "灌木や木の刈り込み：電動カッターを使う、リーフブロワーを使う、芝生エッジャーを使う、ほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "茂みをきれいにする：庭の草抜きをする、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "庭掘り：鋤で土を掘る、庭を埋める、堆肥をやる、楽からほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "木から果物やコーヒーの実を摘む：ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "灌木や木の刈り込み：剪定バサミを使う",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "除草をする：耕す、楽からほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "ガーデニング：全般、ほどほどの労力",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "用水路に水をひく：ポートを開閉する",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝や落ち葉をレーキ（熊手）でかき集める：ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝をレーキ（熊手）でかき集める",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "屋根の雪下ろし",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "草や落ち葉を袋に集める",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝生や庭への水やり：立位または歩行",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "庭仕事：全般、ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "運搬：まきを積む、あるいは積み重ねる、木材を積む/積み降ろす、または木材の運搬、楽からほどほどの労力",
+    "mets": 4.1
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "植苗：潅木、かがんだ状態で、ほどほどの労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "農作物や花を植える：かがんだ状態で、ほどほどの労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "木材の伐採：丸太を切る、ほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝刈り：電動芝刈り機の使用、楽からほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "樹木の植栽",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "除草をする：耕す、ほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "農産物の収穫：木から果物を摘む、果物を収穫する、果物/野菜を摘む、はしごに登って果物を摘む、きつい労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "手押し車：ガーデンカートや手押し車を押す、全般",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "砂場を掘る：シャベルで砂をすくう",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "庭掘り：鋤で土を掘る、庭を埋める、堆肥をやる",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝生を敷く",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝刈り：歩行、電動芝刈り機の使用、ほどほどからきつい労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "除草をする：耕す、くわを使う、ほどほどからきつい労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "伐採：小さい木から中くらいの木",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "シャベルでの雪かき：人力で、ほどほどの労力",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "運搬：まきを積む、あるいは積み重ねる、木材を積む/積み降ろす、または木材の運搬、ほどほどの労力",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝刈り：全般、歩行、ほどほどの労力",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "シャベルで土や泥をすくう",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "大がかりな機器を用いた造園：チェーンソーの使用、庭を耕す",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "芝刈り：手動芝刈り機の使用、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "シャベルでの雪かき：人力で",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "手押し車：大きめのガーデンカートや150kgまでの重量の手押し車を押す",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "庭仕事：全般、きつい労力",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "土地をならす/茂みをきれいにする：下生え、または地面、きつい労力",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "砕石や砂利を敷く",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "木材の伐採：丸太を切る、きつい労力",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "庭掘り：鋤で土を掘る、庭を埋める、堆肥をやる、きつい労力",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "シャベルでの雪かき：人力で、きつい労力",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ガーデニング",
+    "category_small": "伐採：大きな木",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "飛行機の客室乗務員",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：牛の搾乳、全行程、近代的な搾乳専用施設",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "キッチンメイド",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "芝生の管理：芝刈り、ガソリン式芝刈り機",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "錠前師",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "製造業(例：機械加工、板金加工、機械整備、旋盤作業、溶接)、楽からほどほどの労力",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "配管工事",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行：職場で物を回収する、出発の準備をする",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "劇場の作業場での仕事：舞台俳優、舞台裏の仕事",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "電気関係の仕事(例：配線工事をする、ケーブルの取り付けや接合)",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "洗濯業務",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "塗装：家、家具、ほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "立位作業：楽からほどほどの労力(例：重い部品の組立や修理、溶接、部品の仕入れ、自動車修理、梱包、看護、洗濯)",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "アクティブワークステーション：ペダルデスク（40ワット）",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：小動物に餌を与える",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：手作業での搾乳、桶の掃除、ほどほどの労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "漁業：営利目的、楽な労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "郵便配達：電動アシスト付自転車で配達する",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "みかん畑の仕事：果実を摘む",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "患者の世話：部屋の掃除・準備",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "仕立て作業：アイロンがけ",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "仕事中の歩行：4.1km/時、ゆっくりとした速さ、11.3kg未満の軽い物を運ぶ",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "兵隊：軍隊の行進、装備なしで2.4 - 4.1 km/時",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "施設管理業務：ほどほどの労力(例：床磨き機、アリーナフロアの掃き掃除、モップ掛け、ゴミ出し、掃除機掛け)",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：稲作、田植え、精米する",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "ゴミの収集：歩行、トラックにゴミ袋を投げる、道路の清掃",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "警察官：歩行",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "立位：ほどほどの労力、断続的に22.7kgの物を持ち上げる、ロープを結ぶ/巻きつける)",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "仕事中の歩行：4.5 - 5.5km/時、オフィス内、ほどほどの速さ、何も持たずに",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行：4.1km/時、ゆっくりとした速さ11.3kg以上の重たい物を運ぶ",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行：車いすを押して歩く",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "パンづくり：全般、ほどほどの労力",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "客室係：ホテル等の客室業務、ベッドメイク、浴室清掃、カートを押す",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "建築作業：屋外、改築、新築(例：屋根の修理、その他)",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "芝生の管理：庭仕事、全般",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "警察官：逮捕する、立位",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "仕立て作業：機織り、ほどほどの労力(例：紡績や機織り作業、糸の箱を紡績機に運ぶ、縦糸を機械にセットする、ピンワインディング、コーンワインディング、整経、裁断)",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行、階段を降りる、立位：11.3-22.2kgの物を運ぶ",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "兵隊：軍隊の行進、2.4 - 4.1 km/時、10 - 30kgの装備",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "大工仕事：全般、ほどほどの労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "清掃：共用スペースの掃除機掛け",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：牛や馬に餌を与える",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：家畜用の水を運搬する、井戸や小川からの水汲み",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "馬の世話：餌やり、水やり、馬房の掃除、歩行や荷物の持ち上げ動作を含む",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "左官：コンクリートで固める、ほどほどの労力",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "倉庫・物流センター：荷物の運搬（5kg以下）",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：動物の世話をする(例：毛づくろい、ブラッシング、羊の毛を刈る、出産の補助、メディカルケア、焼き印押し)、全般",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "乗馬：仕事で、牛のカッティング（特定の牛を群れから引き離す仕事）",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "肉体労働や単純労働：全般、ほどほどの労力",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "立位：ほどほどの労力、物を持ち続ける、4.5-9.1kg、ほとんど歩行しない、あるいはじっとしている",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "立位：ほどほどからきつい作業(例：22.7kg以上の物を持ち上げる、レンガを積み上げる、塗装、壁紙を貼る)",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行：4.8km/時、ほどほどの速さで11.3kg未満の軽い物を運ぶ",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行：5.7km/時、きびきびと11.3kg未満の物を運ぶ",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "りんごの収穫",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：ほどほどの労力(例：家畜の餌やり、徒歩や馬に乗って牛追いする、肥料を撒く、作物を収穫する)",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "毛皮作り",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "仕事中の歩行：5.7 - 6.3km/時、オフィス内、速い、何も持たずに",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "炭鉱作業：支柱をたてる・足場を組む",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "漁業：営利目的、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "林業：斧による伐採、ゆっくり、1.25kgの斧、毎分19回、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "林業：ほどほどの労力(例：電動ノコギリを使って木を切る、除草する、くわで掘る)",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "製造業：パンチプレスする、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "シャベルで掘る：毎分4.5kg未満、ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "小走り：4.1 - 5.7 km/時、20 - 30kgの装備",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "アクティブワークステーション：ペダルデスク（80ワット）",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "炭鉱作業：石炭や岩の掘削",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "製鋼所：ほどほどの労力(例：鋳肌仕上げ、鍛造、鋳型を傾ける)",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "炭鉱作業：全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "マッサージ師：立位",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行、階段を降りる、立位：22.7-33.6kgの物を運ぶ",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "道路工事：重機の運転",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "兵隊：歩行、4.5km/時、傾斜5％、21.5kgまでの装備",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "炭鉱作業：石炭をシャベルで掘る、人力で",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "馬のレース：騎手、トロッティング(速足)",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "圧縮空気を動力とする重たい電動工具を使う(例：削岩機、ドリル)",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "兵隊：軍装備一式を装着した行進、起伏のある地面、25 - 40kgの装備",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "肉体労働や単純労働：全般、きつい労力",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "シャベルで掘る：毎分4.5-6.8kg、きつい労力",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "トラック運転：荷物を積むまたは積み降ろす、荷物をロープで固定する、立位、歩行や重い荷物の運搬を伴う",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "消防士：要救助者の救出、自動車事故の現場、フックを用いて",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "大工仕事：全般、重労働、またはきつい労力",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行、階段を降りる、立位：34.0-44.9kgの物を運ぶ",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "馬の手入れ：餌やり、馬房の掃除、馬体の掃除、ブラッシング、毛を刈る、調教する、訓練する",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "シャベルで掘る：溝を掘る",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "歩行、階段を降りる、立位：45.4kg以上の物を運ぶ",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "引越し：重たい物を運ぶ、または押す、34.1kg以上、活動時に限る(例：机、引越しトラックに荷物を積む)",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "農作業：きつい労力(例：干し草をまとめる、納屋を掃除する)",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "馬のレース：ギャロップ（襲歩）、キャンター（駈足）",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "シャベル、つるはし、じょうご、くわのような(電動ではない)重たい道具を使う",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "重い荷物の運搬(例：レンガ、工具) ",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "ほどほどの重さの荷物を上の階に運ぶ：11.3 - 22.2 kgの箱",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "消防士：全般",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "消防士：防火服一式を装備してハシゴを登る、消火訓練",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "林業：斧による伐採、速い、1.25kgの斧、毎分35回、きつい労力",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "製鋼所：きつい労力(例：手作業での圧延、圧延機の使用、鉱滓を取り除く、溶鉱炉の手入れをする)",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "林業：きつい労力(例：樹皮を剥ぐ、木の伐採や剪定、丸太を運ぶ、丸太を積み重ねる、種を植える、手作業で木材を切る)",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "鉱業： 全般的な業務、掘削、鉱業支援業務（機械、溶接、パイプ設置、工事全般）",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "兵隊：歩行、4.5km/時、傾斜10％、21.5kgまでの装備",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "シャベルで掘る：毎分7.3kg以上、深く掘る、きつい労力",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "消防士：地上でホースを運ぶ、機材を運んだり上にあげる、壁を壊すなど、防火服一式を装備して",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "対テロリスト軍事演習：ビルの制圧",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "潜水士としてスキンダイビングやスキューバダイビング：米海軍特殊部隊",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "職業",
+    "category_small": "林業：斧による伐採、とても速い、1.25kgの斧、毎分51回、極めてきつい労力",
+    "mets": 17.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "飛び込み：踏み切り板、またはプラットホーム",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "セーリング：ボートやボードセーリング、ウィンドサーフィン、アイスセーリング、全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "サーフィン：ボディサーフィン、ボードサーフィン、全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中バレーボール",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌーを漕ぐ：米を収穫する、米のもみ殻を取り除く",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "セーリング：サンフィッシュ・レーザー・ホビーキャット(ヨットの規格)、キールボート、オーシャンセーリング、ヨットの操縦、レジャー",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌー、ボートを漕ぐ：趣味、全般",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：立ち泳ぎ、ほどほどの労力、全般",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スタンドアップパドルボード（立ち漕ぎボード）：立位、20-29ストローク/分",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "アクアビクス：レジスタンストレーニング",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：50ワット、40-50回転/分",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌーを漕ぐ：キャンプ旅行する",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "パドルボート",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "セーリング：競技、全般",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：背泳ぎ、レクリエーション",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中歩行：ほどほどの労力、ほどほどのペース",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：25ワット、60-70回転/分",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヤック：ほどほどの労力",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "シュノーケリング",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "サーフィン：ボディサーフィン、ボードサーフィン、競技",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スタンドアップパドルボード（立ち漕ぎボード）：立位、30-39ストローク/分",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "急流でのラフティング、カヤック、カヌーを漕ぐ",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "ウィンドサーフィン：パンピング(セイルを動かすことによってボードに推進力を加える技術)をしない",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：75ワット、40-50回転/分",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキューバダイビング：全般、楽な労力",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：平泳ぎ、レクリエーション",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキューバダイビング：上級者",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "アクアビクス：水中体操、全般",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌー、ボートを漕ぐ：6.5-9.6km/時、ほどほどの労力",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキューバダイビング：全般、ほどほどの労力",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "往復水泳：自由形、ゆっくり、レクリエーション",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：クロール、ゆっくりとした速さ、27-41m/分、ほどほどの労力",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "軍事活動：兵站の準備、塹壕づくり",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキー：水上スキー、ウェークボード(水上スノーボード)",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：湖、海、川",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：のんびりと泳ぐ、ラップスイミングではない、全般",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：50ワット、60-70回転/分",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：75ワット、60-70回転/分",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：100ワット、40-50回転/分",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スタンドアップパドルボード（立ち漕ぎボード）：全般",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中ランニング：30歩/分、ゆっくり",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキューバダイビング：レクリエーション",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "サーフィン：パドリング",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中歩行：きつい労力、速いペース",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌーを漕ぐ：水路から別の水路へカヌーを運搬する",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "ジェットスキー：運転する、水上",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキンダイビング、スキューバダイビング：全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：横泳ぎ、全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "アクアビクス：高強度",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中ランニング：40歩/分、ほどほどの速さ",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：100ワット、60-70回転/分",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：クロール、ふつうの速さ、46m/分未満、きつい労力",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：シンクロナイズドスイミング",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中ランニング：50歩/分、速い",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：80-89回転/分",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヤック：スラローム、静かな水面",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "セーリング：競技、きつい労力",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：背泳ぎ、トレーニング、競技",
+    "mets": 9.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スタンドアップパドルボード（立ち漕ぎボード）：立位、40-49ストローク/分",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "往復水泳：自由形、速い、きつい労力",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：立ち泳ぎ、速い、きつい労力",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中ジョギング：きつい労力",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中ランニング：60歩/分、とても速い",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水球",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：平泳ぎ、全般、トレーニング、競技",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水中自転車漕ぎ運動：90回転/分以上",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：クロール、速い、69m/分未満、きつい労力",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：オープンウォーター（海、湖など）、5km",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "兵隊：歩行、4.5km/時、傾斜15％、21.5kgまでの装備",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スタンドアップパドルボード（立ち漕ぎボード）：立位、50-59ストローク/分",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "ウィンドサーフィンやカイトサーフィン：航海",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキンダイビング：ほどほどの速さ",
+    "mets": 11.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌー、ボートを漕ぐ：競技、競漕、スカル",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヌー、ボート、カヤックを漕ぐ：競技、9.7km/時より速い、きつい労力",
+    "mets": 12.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "カヤック：競技",
+    "mets": 13.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：バタフライ、全般",
+    "mets": 13.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "ウィンドサーフィン：競技、パンピングする",
+    "mets": 14
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "水泳：クロール、上級者、競技、82m/分より速い",
+    "mets": 14.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "ローイング（漕艇）：水槽内でのシミュレーション、オール1つで、33 ストローク/分",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "ローイング（漕艇）：シングルスカル、エルゴメーター、競技レベルのスピード（32 ストローク/分以上、16.2 km/時より速い）",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "マリンスポーツ",
+    "category_small": "スキンダイビング：速い",
+    "mets": 15.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "性行動",
+    "category_small": "全般：ほどほどの労力",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "性行動",
+    "category_small": "積極的：きつい労力",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "その他",
+    "category_small": "座位：美術品や工芸品、木彫りの工芸品を作る、機織り、羊毛紡績、ほどほどの労力",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "その他",
+    "category_small": "立位：美術品や工芸品、砂絵、彫刻、機織り、ほどほどの労力",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "その他",
+    "category_small": "立位：美術品や工芸品、砂絵、彫刻、機織り、きつい労力",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "その他",
+    "category_small": "徒歩で旅行やバカンスをする",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り：フィッシングホイール、網のセッティングと魚の回収、全般",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：オオコウモリ、リス",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟採集 ：10 - 15 kgのバックパックを背負いながら",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：鳥類",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：野生の豚",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "ボートに関する活動：ボートの揚げ降ろし",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り：全般",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "川岸での釣り：立位",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り：たもの仕掛けと魚の回収、全般",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り：定置網の仕掛けと魚の回収、全般",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り：手づかみ",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "川岸で歩きながらの釣り",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "大型の海洋生物の狩猟",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り関連：ミミズを掘り出す、シャベルを用いて",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "釣り：クラブフィッシング",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：全般",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：ウサギ、リス、ソウゲンライチョウ、アライグマ、小さな獲物",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "川に入っての釣り：ウェーダーを着用して",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：シカ、ワピチ(アメリカのアカシカ)、大きな獲物",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：キジやライチョウ",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "狩猟：猟具を持って山を歩く",
+    "mets": 9.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "釣り・狩猟",
+    "category_small": "大きな獲物の狩猟：獲物を引きずる",
+    "mets": 9.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スノーモービル：運転する、ほどほどの速さ、平らな雪面",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：ダウンヒル、アルペン、スノーボード、楽な労力、滑走時",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "雪の上をスノーシューズで歩く：ほどほどの労力",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "雪かきをする：人力で、ほどほどの労力",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：氷上、14.6km/時以下の速さ",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：10 - 12.9 km/時、傾斜なし",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "氷の家(かまくら、氷室)を移動する：準備する、ドリルで穴をあける",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：ダウンヒル、アルペン、スノーボード、ほどほどの労力、全般、滑走時",
+    "mets": 6.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、4.1km/時、ゆっくり、または楽な労力、スキーウォーキング",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：13 - 16.9 km/時、傾斜なし",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：氷上、全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキージャンプ：スキー板を持ってジャンプ台に上る",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：全般",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "そりで滑る：トボガニング(小型のそり)、ボブスレー、リュージュ",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：アルペン、高強度トレーニング",
+    "mets": 7.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "犬ぞり：操縦する",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スノーモービル：運転する、レクリエーショナル、ほどほどのペース、山",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "雪かきをする：人力で、きつい労力",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：ダウンヒル、アルペン、スノーボード、きつい労力、滑走時",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：17 - 19.9 km/時、傾斜なし",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、6.5-7.9km/時、ほどほどの速さ、ほどほどの労力、全般",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：氷上、速い、14.6km/時よりも速い、競技以外",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：トレッドミル、9.7-11.2km/時、傾斜2%",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "登山：くだり、ロープをつたって",
+    "mets": 9
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：スラローム",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、高強度トレーニング",
+    "mets": 9.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：トレッドミル、11.3-12.8km/時、傾斜2%",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "雪の上をスノーシューズで歩く：きつい労力",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "登山：くだり、クロスカントリースキー",
+    "mets": 10.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：トレッドミル、13.0-14.4km/時、傾斜2%",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：20 - 23.9 km/時、傾斜なし",
+    "mets": 10.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：トレッドミル、14.6-16.0km/時、傾斜2%",
+    "mets": 11
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、8.1-12.8km/時、速い、きつい労力",
+    "mets": 11.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：6 - 9 km/時、6 - 10度の傾斜",
+    "mets": 12.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：ローラースキー、上級者",
+    "mets": 12.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：10 - 15 km/時、2 - 5度の傾斜",
+    "mets": 12.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "バイアスロントレーニング：5度の傾斜、8km/時、ライフル携行を問わない",
+    "mets": 12.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "バイアスロントレーニング：5度の傾斜、10.7km/時、ライフル携行を問わない",
+    "mets": 12.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、スケーティング",
+    "mets": 13.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、バイアスロン、スケーティング走法",
+    "mets": 13.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：スピードスケート、競技",
+    "mets": 13.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スケート：アイスダンス",
+    "mets": 14
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、上級者、13.0-19.3km/時、レース",
+    "mets": 14
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：16 - 22 km/時、2 - 5度の傾斜",
+    "mets": 14.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー：24 - 27.9 km/時、傾斜なし",
+    "mets": 15
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、固い雪面、上り坂、最大努力、雪山登山",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "スキー：クロスカントリースキー、19.4-25.9km/時、上級者、レース",
+    "mets": 16
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "ウィンタースポーツ",
+    "category_small": "ローラースキー： 10 km/時より速い、6 - 10度の傾斜",
+    "mets": 16
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "犬の散歩",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：4.0 km/時、平らで固い地面",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、3.2 - 3.9 km/時、傾斜なし",
+    "mets": 3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：4.1 km/時、下り坂",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、下り傾斜（3 - 12 %）、4.5 - 5.0 km/時",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、下り傾斜（5 - 25 %）、4.5 km/時、ノルディックポールを使って",
+    "mets": 3.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "リュックを背負って歩く：平らな地面、街中",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を降りる",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "散歩",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：散歩、仕事の合間に歩く",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：イギリスのコメディグループ「モンティ・パイソン」によるコント「Ministry of Silly Walks」内で披露された「ピューティー氏(同コント内のキャラクター)」の歩き方",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、4.0 - 4.7 km/時、傾斜なし",
+    "mets": 3.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "車への荷物の積み降ろし：歩行を伴う",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：6.8 - 22.7 kgの荷物、傾斜1 - 2%、ゆっくりなペース",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "野原や丘の斜面をゆったりとハイキングする、またはゆっくりと歩く：荷物なし",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "ベビーカーを押しながら歩く、または子どもと一緒に歩く：4.1-5.0km/時",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "車いすを押す：仕事以外で",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：4.5 - 5.5 km/時、ほどほどのペース、平らで固い地面",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、4.8 - 5.5 km/時、傾斜なし",
+    "mets": 3.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：2.3 - 6.4 kg（例：スーツケース、箱、食料品）、平らな地面、ほどほどのペース",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：自分で選んだペース、屋内トラック、または屋外、固い地面",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：通勤や通学",
+    "mets": 4
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "医療用ニースクーターを使う",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、4.0 - 5.6 km/時、スキーポールを使って、ノルディックウォーキング、平らな地面、ほどほどのペース",
+    "mets": 4.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：6.8 - 70.4 kg（例：スーツケース、箱、家具）、平らな地面、または階下への運搬、ゆっくりなペース",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "水の運搬：頭の上に載せて、平らな地面を歩く",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "行進する：ほどほどの速さ、軍隊、荷物なし",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：ゆっくりなペース",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "松葉杖を使う：平らな地面、全般",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：ふつうのペースで、耕された土や砂の上を歩く",
+    "mets": 4.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：5.7 - 6.3 km/時、平らで固い地面、速い、運動目的で歩く",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：芝のトラック",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、5.6 - 6.3 km/時、傾斜なし",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、4.1 km/時、傾斜なし、5 - 20℃の環境で、18.2 kgの荷物を持って",
+    "mets": 4.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、傾斜5 - 20%、とてもゆっくりなペース",
+    "mets": 5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、傾斜1 - 5%、ほどほどからはやいペース",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "野原や丘の斜面をふつうのペースでハイキングする、または歩く：荷物なし",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、5.8 - 7.1 km/時、スキーポールを使って、ノルディックウォーキング、平らな地面、ほどほどのペース",
+    "mets": 5.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：0.5 - 6.8kg、上の階へ",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：6.4 - 7.0 km/時、平らで固い地面、とても速い",
+    "mets": 5.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、6.4 - 7.1 km/時、傾斜なし",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、4.1 km/時、傾斜なし、-10 - 0℃の環境で、18.2 kgの荷物を持って",
+    "mets": 5.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：7.3 - 10.9kg、上の階へ",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "ハイキング：クロスカントリー",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：後ろ向きに、5.7km/時、水平な地面",
+    "mets": 6
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：22.7 - 68.1 kg（例：馬や牛の餌、フェンス資材、家具）、平らな地面、ほどほどのペース",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：4.5 - 9.1 kgの荷物、傾斜5 - 10%、ほどほどのペース",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "競歩",
+    "mets": 6.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：全般",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、7.2 - 7.9 km/時、傾斜なし",
+    "mets": 6.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "バックパックを背負って歩く",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、傾斜6 - 10%、ほどほどからはやいペース",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "松葉杖を使う：速いペース",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：7.3 - 7.9 km/時、平らで固い地面、とてもとても速い",
+    "mets": 7
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：9.5 - 18.2 kgの荷物、傾斜3 - 10%、ほどほどから速いペース",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：1段とばし",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：上る、下りる",
+    "mets": 7.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "バックパックを背負って歩く：ディパックを背負ってハイキングや遠足に行く",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：後ろ向きに、5.7km/時、上り坂、5%の勾配",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、後ろ歩き、4.1 km/時、傾斜10%",
+    "mets": 7.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：11.4 - 22.2kg、上の階へ",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "速く行進する：軍隊、荷物なし",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：ハシゴを昇る",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：イギリスのコメディグループ「モンティ・パイソン」によるコント「Ministry of Silly Walks」内で披露された「ティーバッグ氏(同コント内のキャラクター)」の歩き方",
+    "mets": 8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：上の階へ、全般",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：トレッドミル、8.0 - 8.9 km/時、傾斜なし",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：カーブトレッドミル、4.9 - 8.1 km/時、早歩き",
+    "mets": 8.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、急勾配（傾斜30%）、ゆっくりなペース（1.9 km/時未満）",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：8.1 - 8.9 km/時、平らで固い地面",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、7.2 - 8.0 km/時、スキーポールを使って、ノルディックウォーキング、平らな地面、はやいペース",
+    "mets": 8.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、傾斜11 - 20%、ゆっくりからほどほどのペース",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、スキーポールを使って、ノルディックウォーキング、上り坂、ほどほどのペース",
+    "mets": 8.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "階段を上る：はやいペース、1段ずつ",
+    "mets": 9.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：22.7 - 33.6kg、上の階へ",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、6.5 - 8.1 km/時、傾斜3 - 5%、とても速いペース",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：9.1 kg以上の荷物、傾斜5 - 20%、ほどほどから速いペース",
+    "mets": 10
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、スキーポールを使って、ノルディックウォーキング、平らな地面、9 - 15 kgの荷物を運びながら",
+    "mets": 10.8
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "荷物を運搬する：33.6kgより重たい、上の階へ",
+    "mets": 12
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "歩行：運動目的、スキーポールを使って、ノルディックウォーキング、上り坂、9 - 15 kgの荷物を運びながら",
+    "mets": 12.3
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、とても急な勾配（傾斜30 - 40%）、1.9 - 2.9 km/時",
+    "mets": 15.5
+  },
+  {
+    "category_large": "成人",
+    "category_medium": "歩行",
+    "category_small": "山を登る：荷物なし、急勾配（傾斜10 - 40%）、2.9 - 8.1 km/時",
+    "mets": 16.3
+  }
+]
