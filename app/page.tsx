@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import metsData from '../public/metsData.json';
 
 type MetsItem = {
@@ -72,7 +72,6 @@ export default function Home() {
     setActivityTime(timeValue);
   }
 
-  
   // クリアボタンの設定
   const handleClear = () => {
     setGender("");
@@ -81,23 +80,46 @@ export default function Home() {
     setSelectedMediumCategory("");
     setSelectedLargeCategory("");
     setActivityTime("");
+    setResultMets(null);
+    setResultCarories(null);
   }
 
   // 計算結果
   const [resultMets, setResultMets] = useState<number | null>(null);
+  const [resultCalories, setResultCarories] = useState<number | null>(null);
   const selectedMets = smallCategoriesArray.find(
-    (item: MetsItem) => {
-      item.category_small === selectedSmallCategory
-    }
-  )
+    (item: MetsItem) => item.category_small === selectedSmallCategory
+  )?.mets;
 
   const handleCalculate = () => {
-    let totalMets;
-    return smallCategoriesArray.mets * activityTime / 60
+    if (weight === '') {
+      alert('体重を選択してください')
+      return;
+    } else if (selectedMets === undefined) {
+      alert('活動内容を選択してください')
+      return;
+    } else if (activityTime === '') {
+      alert('活動時間を入力してください')
+      return;
+    } else {
+      const calculatedMets = Math.round(selectedMets * Number(activityTime) / 60 * 10) / 10;
+      setResultMets(calculatedMets);
+      const calculatedCarories = Math.round(selectedMets * Number(weight) * Number(activityTime) / 60 * 1.05);
+      setResultCarories(calculatedCarories);
+    }
   }
 
-  const [resultCalories, setResultCarories] = useState<number | null>(null);
+  // 計算結果画面の動作
+  const resultRef = useRef<HTMLOutputElement>(null);
 
+  useEffect(() => {
+    if (resultMets !== null && resultRef.current) {
+      resultRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  }, [resultMets]);
 
   return (
     <>
@@ -117,7 +139,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="pt-4 pb-8 mt-4 mx-auto rounded-2xl bg-orange-100 w-[calc(100%-36px)]">
+      <div className="pt-4 pb-8 mt-4 mx-auto rounded-2xl bg-orange-100">
         <h2 className="font-bold text-center text-xl p-2">メッツ計算</h2>
 
         <div className="max-w-md mx-auto w-fit">
@@ -134,7 +156,7 @@ export default function Home() {
             <div>
               <span className={itemName}>日付</span>
               <input type="date" className={inputStyle} />
-            </div> */}
+            </div>
 
 
             <div className="flex gap-2">
@@ -160,7 +182,7 @@ export default function Home() {
                 />
                 <span className="mx-1">女性</span>
               </label>
-            </div>
+            </div> */}
 
 
             <div>
@@ -170,6 +192,7 @@ export default function Home() {
                 inputMode="decimal"
                 className={inputStyle}
                 value={weight}
+                maxLength={'5'}
                 onChange={handleWeightInput} />
               <span className={unit}>kg</span>
             </div>
@@ -194,6 +217,7 @@ export default function Home() {
                 type="text"
                 className={inputStyle}
                 value={activityTime}
+                maxLength={'4'}
                 onChange={handleActivityTimeInput} />
               <span className={unit}>分</span>
             </div>
@@ -217,22 +241,27 @@ export default function Home() {
         </div>
       </div>
 
-      {<output className={cardStyle}>
-        <h2 className="font-bold text-center text-xl p-2">
-          計算結果
-        </h2>
-        <p
-          className={paragraphStyle}>
-          この活動は
-          <span>XX</span>
-          メッツです。
-        </p>
-        <p className={paragraphStyle}>
-          消費カロリー
-          <span>XX</span>
-          kcal
-        </p>
-      </output>}
+      {resultMets &&
+        <output className="block pt-4 pb-8 my-8 mx-auto rounded-2xl bg-white border-2 border-orange-500 shadow-md"
+        ref={resultRef}>
+          <h2 className="font-bold text-center text-xl p-2 text-orange-500">
+            計算結果
+          </h2>
+          <p
+            className={`${paragraphStyle} text-xl text-center`}>
+            この活動で
+            <span>
+              {resultMets}
+            </span>
+            メッツ達成！
+          </p>
+          <p className={`${paragraphStyle} text-xl text-center`}>
+            消費カロリー
+            <span>{resultCalories}</span>
+            kcal
+          </p>
+        </output>
+      }
 
       {/* モーダル画面の表示設定 */}
       {isModalOpen && (
