@@ -192,7 +192,7 @@ export default function Home() {
                 inputMode="decimal"
                 className={inputStyle}
                 value={weight}
-                maxLength={'5'}
+                maxLength={5}
                 onChange={handleWeightInput} />
               <span className={unit}>kg</span>
             </div>
@@ -217,7 +217,7 @@ export default function Home() {
                 type="text"
                 className={inputStyle}
                 value={activityTime}
-                maxLength={'4'}
+                maxLength={4}
                 onChange={handleActivityTimeInput} />
               <span className={unit}>分</span>
             </div>
