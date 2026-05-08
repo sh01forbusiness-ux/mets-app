@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="ja">
       <body 
       className="flex flex-col min-h-screen max-w-5xl mx-auto my-4 w-[calc(100%-36px)]">
-        {<Header />}
+        {<Header/>}
         <main className="grow mt-4">
           {children}
         </main>
