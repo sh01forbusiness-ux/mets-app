@@ -18,7 +18,7 @@ export default function RootLayout({
       <body 
       className="flex flex-col min-h-screen max-w-5xl mx-auto my-4 w-[calc(100%-36px)]">
         {<Header/>}
-        <main className="grow mt-4">
+        <main className="grow my-4">
           {children}
         </main>
         {<Footer />}
