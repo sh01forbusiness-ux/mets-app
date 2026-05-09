@@ -1,3 +1,7 @@
+import Image from 'next/image';
+import journalImage01 from './journal-image-01.png'
+import journalImage02 from './journal-image-02.png'
+import journalImage03 from './journal-image-03.png'
 
 export default function About() {
   // スタイル設定
@@ -10,6 +14,14 @@ export default function About() {
       <div className={cardStyle}>
         <h2 className={titleStyle}>メッツ（Mets）</h2>
         <p className={paragraphStyle}>メッツとは身体活動の強度を表し、安静座位時を1メッツとし、その何倍のエネルギーを消費するかという指標です。</p>
+      <Image
+        className={paragraphStyle}
+        src={journalImage01}
+        alt='参考画像01'
+        width={1551}
+        height={911}
+        h-full
+        w-auto />
         <ul className={paragraphStyle}>
           <li>
             身体活動：安静にしている状態よりも多くのエネルギーを消費する、骨格筋の収縮を伴う全ての活動
@@ -39,6 +51,14 @@ export default function About() {
         <p className={paragraphStyle}>
 
         </p>
+              <Image
+        className={paragraphStyle}
+        src={journalImage02}
+        alt='参考画像02'
+        width={1437}
+        height={791}
+        w-full
+        h-auto />
       </div>
 
       <div className={cardStyle}>
@@ -47,6 +67,14 @@ export default function About() {
           座位や臥位の状態で行われる、エネルギー消費が1.5 メッツ以下の行動を座位行動と呼びます。<br />
           座位時間と死亡リスクの関係を検討した34件のコホート研究のメタ解析では、座位時間の増加に伴い死亡リスクが増加することが報告されています。
         </p>
+        <Image
+          className={paragraphStyle}
+          src={journalImage03}
+          alt='参考画像03'
+          width={1661}
+          height={821}
+          w-full
+          h-auto />
       </div>
 
     </main>
