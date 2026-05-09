@@ -8,31 +8,30 @@ export default function About() {
   const cardStyle = "p-4"
   const titleStyle = "border-l-8 border-orange-500 text-xl font-bold p-2"
   const paragraphStyle = "pl-5 mt-4"
+  const imageStyle = "pl-5 mt-4 w-full w-auto"
 
   return (
     <main>
       <div className={cardStyle}>
         <h2 className={titleStyle}>メッツ（Mets）</h2>
         <p className={paragraphStyle}>メッツとは身体活動の強度を表し、安静座位時を1メッツとし、その何倍のエネルギーを消費するかという指標です。</p>
-      <Image
-        className={paragraphStyle}
-        src={journalImage01}
-        alt='参考画像01'
-        width={1551}
-        height={911}
-        h-full
-        w-auto />
-        <ul className={paragraphStyle}>
+        <Image
+          className={imageStyle}
+          src={journalImage01}
+          alt='参考画像01'
+          width={1551}
+          height={911} />
+        <ul className={`${paragraphStyle} text-sm`}>
           <li>
             身体活動：安静にしている状態よりも多くのエネルギーを消費する、骨格筋の収縮を伴う全ての活動
           </li>
-          <li>
+          <li className='mt-2'>
             生活活動：身体活動の一部で、日常生活における家事・労働・通勤・通学などに伴う活動
           </li>
-          <li>
+          <li className='mt-2'>
             運動：身体活動の一部で、スポーツやフィットネスなどの、健康・体力の維持・増進を目的として、計画的・定期的に実施する活動
           </li>
-          <li>
+          <li className='mt-2'>
             座位行動：座位や臥位の状態で行われる、エネルギー消費が1.5 メッツ6以下の全ての覚醒中の行動（例えば、デスクワークをすることや、座ったり寝ころんだ状態でテレビやスマートフォンを見ること）
           </li>
         </ul>
@@ -51,14 +50,12 @@ export default function About() {
         <p className={paragraphStyle}>
 
         </p>
-              <Image
-        className={paragraphStyle}
-        src={journalImage02}
-        alt='参考画像02'
-        width={1437}
-        height={791}
-        w-full
-        h-auto />
+        <Image
+          className={imageStyle}
+          src={journalImage02}
+          alt='参考画像02'
+          width={1437}
+          height={791} />
       </div>
 
       <div className={cardStyle}>
@@ -68,13 +65,11 @@ export default function About() {
           座位時間と死亡リスクの関係を検討した34件のコホート研究のメタ解析では、座位時間の増加に伴い死亡リスクが増加することが報告されています。
         </p>
         <Image
-          className={paragraphStyle}
+          className={imageStyle}
           src={journalImage03}
           alt='参考画像03'
           width={1661}
-          height={821}
-          w-full
-          h-auto />
+          height={821} />
       </div>
 
     </main>
