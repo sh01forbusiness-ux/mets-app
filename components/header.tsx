@@ -55,10 +55,14 @@ useEffect(() => {
               </button>
             </div>
             <ul>
-              <li className={navItemStyle}>
+              <li 
+              className={navItemStyle}
+              onClick={() => setIsNavOpen(false)}>
                 <Link href="/about" >メッツの概要</Link>
               </li>
-              <li className={navItemStyle}>
+              <li 
+              className={navItemStyle}
+              onClick={() => setIsNavOpen(false)}>
                 <Link href="/activities">メッツがわかる活動表</Link>
               </li>
             </ul>
