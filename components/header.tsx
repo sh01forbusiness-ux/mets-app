@@ -10,19 +10,19 @@ export default function Header() {
 
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-useEffect(() => {
-  if (isNavOpen) {
-    document.documentElement.style.overflow = 'hidden';
-    document.body.style.overflow = 'hidden';
-  } else {
-    document.documentElement.style.overflow = '';
-    document.body.style.overflow = '';
-  }
-  return () => {
-    document.documentElement.style.overflow = '';
-    document.body.style.overflow = '';
-  };
-}, [isNavOpen]);
+  useEffect(() => {
+    if (isNavOpen) {
+      document.documentElement.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.documentElement.style.overflow = '';
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.documentElement.style.overflow = '';
+      document.body.style.overflow = '';
+    };
+  }, [isNavOpen]);
 
   return (
     <header className="sm:block flex justify-between px-4 py-2 text-sky-950">
@@ -55,15 +55,21 @@ useEffect(() => {
               </button>
             </div>
             <ul>
-              <li 
-              className={navItemStyle}
-              onClick={() => setIsNavOpen(false)}>
-                <Link href="/about" >メッツの概要</Link>
+              <li>
+                <Link
+                  href="/about"
+                  className={`${navItemStyle} block`}
+                  onClick={() => setIsNavOpen(false)}>
+                  メッツの概要
+                </Link>
               </li>
-              <li 
-              className={navItemStyle}
-              onClick={() => setIsNavOpen(false)}>
-                <Link href="/activities">メッツがわかる活動表</Link>
+              <li>
+                <Link
+                  href="/activities"
+                  className={`${navItemStyle} block`}
+                  onClick={() => setIsNavOpen(false)}>
+                  メッツがわかる活動表
+                </Link>
               </li>
             </ul>
           </nav>
