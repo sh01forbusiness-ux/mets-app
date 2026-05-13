@@ -8,10 +8,9 @@ export default function ActivitiesPage() {
 
   return (
     <main
-      className="p-4 mx-auto"
-    >
+      className="p-4 text-center">
       <label>
-        利用者分類を選択してください :
+        利用者分類を選択してください 
       </label>
       <select
         name="users"
@@ -29,14 +28,14 @@ export default function ActivitiesPage() {
       {selectedCategory === "adult" &&
         <iframe
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWETANOAQcAtILYWyD383cIpg0t8G_zB799xvNCjTUH-cojLN6MsZJ_b4IUZkgNw/pubhtml?gid=2020184611&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
-          className="w-full h-[16050px]"></iframe>
+          className="w-full h-100"></iframe>
       }
 
       {/* 高齢者 */}
       {selectedCategory === "senior" &&
         <iframe
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBrbUqk4VgHG3VthqdR5yEQPquRPFjzgau8BdaBuuHWiOQKq8wk7gUF0Jsas1PNA/pubhtml?gid=1789910876&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
-          className="w-full h-[1550px]"></iframe>
+          className="w-full h-100"></iframe>
       }
 
       {/* 車椅子利用者 */}
@@ -44,7 +43,7 @@ export default function ActivitiesPage() {
         <div className='flex justify-center'>
           <iframe
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXWtugwpZXVmBuj4lcKTmquhQz-RoCpdlgWqcBr8j-gjIP3LfrywaQo0cNmSZD8w/pubhtml?gid=1181218890&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false "
-            className="w-full h-[1100px] block mx-auto"></iframe>
+            className="w-full h-100 block mx-auto"></iframe>
         </div>
       }
     </main>
