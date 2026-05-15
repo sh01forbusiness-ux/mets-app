@@ -146,12 +146,6 @@ export default function Home() {
           <div className={`${paragraphStyle} flex flex-col gap-2`}>
 
             <div>
-              <span className={itemName}>目標</span>
-              <input type="text" className={inputStyle} />
-              <span className={unit}>メッツ / 週</span>
-            </div>
-
-            <div>
               <span className={itemName}>日付</span>
               <input type="date" className={inputStyle} />
             </div>
