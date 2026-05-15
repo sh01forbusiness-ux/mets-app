@@ -8,7 +8,7 @@ export default function ActivitiesPage() {
 
   return (
     <main
-      className="p-4 text-center">
+      className="text-center">
       <label>
         利用者分類を選択してください 
       </label>
@@ -24,6 +24,10 @@ export default function ActivitiesPage() {
         <option value="wheelchair user">車椅子利用者</option>
       </select>
 
+      {/* 未選択 */}
+      {selectedCategory === "" &&
+        <div className="w-full h-100"></div>
+      }
       {/* 成人 */}
       {selectedCategory === "adult" &&
         <iframe
@@ -35,7 +39,7 @@ export default function ActivitiesPage() {
       {selectedCategory === "senior" &&
         <iframe
           src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBrbUqk4VgHG3VthqdR5yEQPquRPFjzgau8BdaBuuHWiOQKq8wk7gUF0Jsas1PNA/pubhtml?gid=1789910876&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
-          className="w-full h-100"></iframe>
+          className="w-full h-90"></iframe>
       }
 
       {/* 車椅子利用者 */}
@@ -43,7 +47,7 @@ export default function ActivitiesPage() {
         <div className='flex justify-center'>
           <iframe
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXWtugwpZXVmBuj4lcKTmquhQz-RoCpdlgWqcBr8j-gjIP3LfrywaQo0cNmSZD8w/pubhtml?gid=1181218890&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false "
-            className="w-full h-100 block mx-auto"></iframe>
+            className="w-full h-90"></iframe>
         </div>
       }
     </main>

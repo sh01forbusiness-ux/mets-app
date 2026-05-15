@@ -145,9 +145,7 @@ export default function Home() {
         <div className="max-w-md mx-auto w-fit">
           <div className={`${paragraphStyle} flex flex-col gap-2`}>
 
-            {/* ２版以降で使用 */}
-
-            {/* <div>
+            <div>
               <span className={itemName}>目標</span>
               <input type="text" className={inputStyle} />
               <span className={unit}>メッツ / 週</span>
@@ -182,7 +180,7 @@ export default function Home() {
                 />
                 <span className="mx-1">女性</span>
               </label>
-            </div> */}
+            </div>
 
 
             <div>

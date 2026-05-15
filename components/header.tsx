@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
-  const navItemStyle = "rounded-xl p-2 hover:bg-gray-200 duration-300"
+  const navItemStyle = "rounded-xl p-2 hover:bg-gray-200 duration-300 block"
 
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -58,7 +58,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/about"
-                  className={`${navItemStyle} block`}
+                  className={navItemStyle}
                   onClick={() => setIsNavOpen(false)}>
                   メッツの概要
                 </Link>
@@ -66,9 +66,17 @@ export default function Header() {
               <li>
                 <Link
                   href="/activities"
-                  className={`${navItemStyle} block`}
+                  className={navItemStyle}
                   onClick={() => setIsNavOpen(false)}>
                   メッツがわかる活動表
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/history"
+                  className={navItemStyle}
+                  onClick={() => setIsNavOpen(false)}>
+                  活動履歴
                 </Link>
               </li>
             </ul>
@@ -84,6 +92,9 @@ export default function Header() {
           </li>
           <li>
             <Link href="/activities" className={navItemStyle}>メッツがわかる活動表</Link>
+          </li>
+          <li>
+            <Link href="/history" className={navItemStyle}>活動履歴</Link>
           </li>
         </ul>
       </nav>
