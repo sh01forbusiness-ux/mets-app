@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 export default function Header() {
-  const navItemStyle = "rounded-xl p-2 hover:bg-gray-200 duration-300 block"
+  const navItemStyle = "rounded-xl p-2 hover:bg-gray-300 duration-300 block"
 
   const [isNavOpen, setIsNavOpen] = useState(false);
 

@@ -3,6 +3,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import metsData from '../public/metsData.json';
 import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 type MetsItem = {
   category_large: string;
@@ -10,6 +11,17 @@ type MetsItem = {
   category_small: string;
   mets: number;
 }
+
+type ActivityRecord = {
+  id: number,
+  date: string,
+  gender: string,
+  weight: number | null,
+  activityTime: number | null,
+  mets: number | null,
+  calories: number | null,
+};
+
 
 export default function Home() {
 
@@ -84,6 +96,7 @@ export default function Home() {
 
   // クリアボタンの設定
   const handleClear = () => {
+    setDate("");
     setGender("");
     setWeight("");
     setSelectedSmallCategory("");
@@ -102,7 +115,13 @@ export default function Home() {
   )?.mets;
 
   const handleCalculate = () => {
-    if (weight === '') {
+    if (date === '') {
+      alert('日付を選択してください')
+      return;
+    } else if (gender === '') {
+      alert('性別を選択してください')
+      return;
+    } else if (weight === '') {
       alert('体重を選択してください')
       return;
     } else if (selectedMets === undefined) {
@@ -114,7 +133,6 @@ export default function Home() {
     } else {
       const calculatedMets = Math.round(selectedMets * Number(activityTime) / 60 * 10) / 10;
       setResultMets(calculatedMets);
-      localStorage.setItemˆ
       const calculatedCarories = Math.round(selectedMets * Number(weight) * Number(activityTime) / 60 * 1.05);
       setResultCarories(calculatedCarories);
     }
@@ -122,7 +140,6 @@ export default function Home() {
 
   // 計算結果画面の動作
   const resultRef = useRef<HTMLOutputElement>(null);
-
   useEffect(() => {
     if (resultMets !== null && resultRef.current) {
       resultRef.current.scrollIntoView({
@@ -131,6 +148,27 @@ export default function Home() {
       });
     }
   }, [resultMets]);
+
+  // 計算結果の保存
+  const saveActivityLog = () => {
+    const newRecord: ActivityRecord = {
+      id: Date.now(),
+      date: date,
+      gender: gender,
+      weight: Number(weight),
+      activityTime: Number(activityTime),
+      mets: resultMets,
+      calories: resultCalories,
+    };
+    const existingData = localStorage.getItem('metsHistory');
+    let activityRecords: ActivityRecord[] = [];
+    if (existingData) {
+      activityRecords = JSON.parse(existingData);
+    }
+    activityRecords.push(newRecord);
+    localStorage.setItem('metsHistory', JSON.stringify(activityRecords));
+  }
+
 
   return (
     <>
@@ -158,11 +196,11 @@ export default function Home() {
 
             <div>
               <span className={itemName}>日付</span>
-              <input 
-              type="date" 
-              value={date}
-              onChange={(e) => setDate(e.target.value)}
-              className={inputStyle} />
+              <input
+                type="date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+                className={inputStyle} />
             </div>
 
 
@@ -249,25 +287,40 @@ export default function Home() {
       </div>
 
       {resultMets &&
-        <output className="block pt-4 pb-8 my-8 mx-auto rounded-2xl bg-white border-2 border-orange-500 shadow-md"
-        ref={resultRef}>
-          <h2 className="font-bold text-center text-xl p-2 text-orange-500">
-            計算結果
-          </h2>
-          <p
-            className={`${paragraphStyle} text-xl text-center`}>
-            この活動で
-            <span>
-              {resultMets}
-            </span>
-            メッツ達成！
+        <>
+          <output className="block pt-4 pb-8 my-8 mx-auto rounded-2xl bg-white border-2 border-orange-500 shadow-md text-xl text-center"
+            ref={resultRef}>
+            <h2 className="font-bold text-center p-2 text-orange-500">
+              計算結果
+            </h2>
+            <p
+              className='mt-4'>
+              この活動で
+              <span>
+                {resultMets}
+              </span>
+              メッツ達成！
+            </p>
+            <p className='mt-4'>
+              消費カロリー
+              <span>{resultCalories}</span>
+              kcal
+            </p>
+            <button
+              className={`${buttonStyle} mt-4 inline-block`}
+              onClick={saveActivityLog}>
+              活動履歴として保存する
+            </button>
+          </output>
+          <p className={`${paragraphStyle} -xl`}>
+            ※活動履歴は
+            <Link
+              href="/historyPage"
+              className='text-sky-950 font-bold'>
+              こちら
+            </Link>
           </p>
-          <p className={`${paragraphStyle} text-xl text-center`}>
-            消費カロリー
-            <span>{resultCalories}</span>
-            kcal
-          </p>
-        </output>
+        </>
       }
 
       {/* モーダル画面の表示設定 */}
