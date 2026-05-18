@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useRef, useEffect } from 'react';
 import metsData from '../public/metsData.json';
+import { useRouter } from 'next/navigation';
 
 type MetsItem = {
   category_large: string;
@@ -20,6 +21,15 @@ export default function Home() {
   const itemName = "w-20 item-center inline-block"
   const unit = "ml-2"
   const buttonStyle = "px-4 mx-2 rounded-full text-orange-500 bg-white border border-orange-500 hover:bg-orange-500 hover:text-white cursor-pointer duration-300"
+
+  // 日付の入力管理
+  const getToday = () => {
+    const yyyy = new Date().getFullYear();
+    const mm = String(new Date().getMonth() + 1).padStart(2, '0');
+    const dd = String(new Date().getDate()).padStart(2, '0');
+    return `${yyyy}-${mm}-${dd}`;
+  }
+  const [date, setDate] = useState(getToday());
 
   // 性別の入力管理
   const [gender, setGender] = useState<"male" | "female" | "">("");
@@ -104,6 +114,7 @@ export default function Home() {
     } else {
       const calculatedMets = Math.round(selectedMets * Number(activityTime) / 60 * 10) / 10;
       setResultMets(calculatedMets);
+      localStorage.setItemˆ
       const calculatedCarories = Math.round(selectedMets * Number(weight) * Number(activityTime) / 60 * 1.05);
       setResultCarories(calculatedCarories);
     }
@@ -130,7 +141,7 @@ export default function Home() {
         </p>
         <ul className={paragraphStyle}>
           <li>高齢者：身体活動 15メッツ以上 / 週</li>
-          <li>成人　：身体活動 23メッツ以上 / 週（うち運動4メッツ以上）</li>
+          <li>成人  ：身体活動 23メッツ以上 / 週（うち運動4メッツ以上）</li>
           <li>こども：身体活動 毎日3メッツ（参考）</li>
         </ul>
         <p className={paragraphStyle}>
@@ -147,7 +158,11 @@ export default function Home() {
 
             <div>
               <span className={itemName}>日付</span>
-              <input type="date" className={inputStyle} />
+              <input 
+              type="date" 
+              value={date}
+              onChange={(e) => setDate(e.target.value)}
+              className={inputStyle} />
             </div>
 
 
