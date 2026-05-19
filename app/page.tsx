@@ -12,16 +12,16 @@ type MetsItem = {
   mets: number;
 }
 
-type ActivityRecord = {
+export type ActivityRecord = {
   id: number,
   date: string,
   gender: string,
   weight: number | null,
+  mediumActivityCategory: string,
   activityTime: number | null,
   mets: number | null,
   calories: number | null,
 };
-
 
 export default function Home() {
 
@@ -156,6 +156,7 @@ export default function Home() {
       date: date,
       gender: gender,
       weight: Number(weight),
+      mediumActivityCategory: selectedMediumCategory,
       activityTime: Number(activityTime),
       mets: resultMets,
       calories: resultCalories,
@@ -167,6 +168,7 @@ export default function Home() {
     }
     activityRecords.push(newRecord);
     localStorage.setItem('metsHistory', JSON.stringify(activityRecords));
+    alert('保存が完了しました。');
   }
 
 
@@ -315,7 +317,7 @@ export default function Home() {
           <p className={`${paragraphStyle} -xl`}>
             ※活動履歴は
             <Link
-              href="/historyPage"
+              href="/history"
               className='text-sky-950 font-bold'>
               こちら
             </Link>
