@@ -15,16 +15,23 @@ export default function HistoryPage() {
 
   // 入力値の管理
   const [inputValue, setInputValue] = useState<string>("23");
-    const handleInputValue = (e: React.ChangeEvent<HTMLInputElement>) => {
+  useEffect(() => {
+    const savedTargetValue = localStorage.getItem('savedTargetValue');
+    if (savedTargetValue) {
+    setInputValue(savedTargetValue);
+    }
+  })
+  const handleInputValue = (e: React.ChangeEvent<HTMLInputElement>) => {
     let num = e.target.value;
     num = num.replace(/[０-９]/g, (s) =>
       String.fromCharCode(s.charCodeAt(0) - 0xfee0)
     );
     num = num.replace(/[^0-9.]/g, '');
     if (num.length > 2) {
-      num.slice(0, 2);
+      num = num.slice(0, 2);
     }
     setInputValue(num);
+    localStorage.setItem('savedTargetValue', num);
   }
 
   // 確定ボタンの動作管理
@@ -67,7 +74,7 @@ export default function HistoryPage() {
   const achievementRatio = targetValue !== null ? Math.round((totalMets / targetValue) * 100) : null;
 
   // ステータスバーの動作
-  const resultRef = useRef<HTMLOutputElement>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (achievementRatio !== null && resultRef.current) {
       resultRef.current.scrollIntoView({
@@ -156,7 +163,9 @@ export default function HistoryPage() {
         </div>
       </section>
       {achievementRatio !== null &&
-        <div className="my-6">
+        <div 
+        className="my-6"
+        ref={resultRef}>
           <div className="w-full h-5 border rounded-full overflow-hidden bg-gray-300">
             {achievementRatio < 100 && (
               <div
