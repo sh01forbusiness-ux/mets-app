@@ -18,9 +18,10 @@ export default function HistoryPage() {
   useEffect(() => {
     const savedTargetValue = localStorage.getItem('savedTargetValue');
     if (savedTargetValue) {
-    setInputValue(savedTargetValue);
+      setInputValue(savedTargetValue);
     }
-  })
+  }, []);
+
   const handleInputValue = (e: React.ChangeEvent<HTMLInputElement>) => {
     let num = e.target.value;
     num = num.replace(/[０-９]/g, (s) =>
@@ -50,6 +51,8 @@ export default function HistoryPage() {
   const handleClear = () => {
     setTargetValue(null);
     setInputValue("");
+    setAnimatedWidth(0);
+    localStorage.removeItem('savedTargetValue');
   }
 
   // 履歴の管理
@@ -83,8 +86,16 @@ export default function HistoryPage() {
       });
     }
   }, [achievementRatio]);
-
   const statusBarWidth = achievementRatio !== null ? Math.min(achievementRatio, 100) : 0;
+
+  const [animatedWidth, setAnimatedWidth] = useState(0);
+  useEffect(() => {
+    if (achievementRatio !== null) {
+      setTimeout(() => setAnimatedWidth(statusBarWidth), 100);
+    } else {
+      setAnimatedWidth(0);
+    }
+  }, [statusBarWidth]);
 
   // 削除ボタンの動作設定
   const handleDelete = (id: number) => {
@@ -121,7 +132,7 @@ export default function HistoryPage() {
         </p>
       </section>
       <section className={`${cardStyle} mt-4 mx-auto rounded-2xl bg-orange-100`}>
-        <h2 className="font-bold text-center text-xl p-2">表示設定</h2>
+        <h2 className="font-bold text-center text-xl p-2">履歴表示設定</h2>
         <div className="text-center mt-2">
           <p>
             <span className={inputStyle}>目標</span>：
@@ -162,26 +173,26 @@ export default function HistoryPage() {
           </button>
         </div>
       </section>
-      {achievementRatio !== null &&
-        <div 
-        className="my-6"
-        ref={resultRef}>
+      {achievementRatio !== null && sevenDaysRecords.length !== 0 &&
+        (<div
+          className="my-6"
+          ref={resultRef}>
           <div className="w-full h-5 border rounded-full overflow-hidden bg-gray-300">
             {achievementRatio < 100 && (
               <div
                 className="h-full  bg-orange-400"
-                style={{ width: `${statusBarWidth}%` }}>
+                style={{ width: `${animatedWidth}%`, transition: 'width 1s ease-out' }}>
               </div>
             )}
             {achievementRatio >= 100 && (
               <div
                 className="h-full  bg-orange-600"
-                style={{ width: `${statusBarWidth}%` }}>
+                style={{ width: `${animatedWidth}%`, transition: 'width 1s ease-out' }}>
               </div>
             )}
           </div>
           <div className=" w-full text-center text-xl mt-4 ">
-            {achievementRatio < 100 && (
+            {achievementRatio < 100 && sevenDaysRecords.length !== 0 && (
               <p>目標達成まであと{Math.round((Number(targetValue) - totalMets) * 10) / 10}メッツ！</p>
             )}
             {achievementRatio >= 100 && (
@@ -192,7 +203,7 @@ export default function HistoryPage() {
             )}
           </div>
         </div>
-      }
+      )}
       <section>
         {sevenDaysRecords.length === 0 ? (
           <p className="font-bold text-center p-8">
