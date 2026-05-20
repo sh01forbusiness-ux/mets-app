@@ -20,7 +20,7 @@ targetFiles.forEach(target => {
 
     rawData.slice(1).forEach(row => {
       const categoryMedium = row[0] ? String(row[0]) : '';
-      const metsValue = row[2];
+      const metsValue = row[2] ? Number(row[2]) : 0;
       const categorySmall = row[3] ? String(row[3]).replace(/[\r\n]+/g, '') : '';
 
       finalJsonData.push({
