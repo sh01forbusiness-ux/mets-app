@@ -2,7 +2,6 @@
 
 import { useState, useMemo, useRef, useEffect } from 'react';
 import metsData from '../public/metsData.json';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 type MetsItem = {
@@ -180,16 +179,14 @@ return (
     <div className={cardStyle}>
       <h2 className={titleStyle}>メッツとは</h2>
       <p className={paragraphStyle}>
-        厚生労働省が健康日本21で取り決めた健康づくりの基準を公表しています。その基準としてメッツが使用されており、目標値は以下の通り定められています。
-      </p>
-      <ul className={paragraphStyle}>
-        <li>高齢者：身体活動 15メッツ以上 / 週</li>
-        <li>成人  ：身体活動 23メッツ以上 / 週（うち運動4メッツ以上）</li>
-        <li>こども：身体活動 毎日3メッツ（参考）</li>
-      </ul>
-      <p className={paragraphStyle}>
-        ※上記は統計学的な目安であり、実際には運動習慣や疾病などに合わせた目標設定が推奨されています。<br />
-        まずは無理のない目標設定をしていきましょう。
+        厚生労働省が健康日本21で取り決めた健康づくりの基準を公表しています。<br />
+        その基準としてメッツが使用されており、身体活動の強度を数値化することができます。
+        詳細は
+        <Link 
+        href="/about"
+        className='font-bold'>
+          こちら
+          </Link>
       </p>
     </div>
 

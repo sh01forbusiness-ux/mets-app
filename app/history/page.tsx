@@ -177,16 +177,20 @@ export default function HistoryPage() {
         (<div
           className="my-6"
           ref={resultRef}>
+            <div className="flex justify-between">
+              <p>Start</p>
+              <p>Goal</p>
+            </div>
           <div className="w-full h-5 border rounded-full overflow-hidden bg-gray-300">
             {achievementRatio < 100 && (
               <div
-                className="h-full  bg-orange-400"
+                className="h-full  bg-orange-500"
                 style={{ width: `${animatedWidth}%`, transition: 'width 1s ease-out' }}>
               </div>
             )}
             {achievementRatio >= 100 && (
               <div
-                className="h-full  bg-orange-600"
+                className="h-full  bg-red-500"
                 style={{ width: `${animatedWidth}%`, transition: 'width 1s ease-out' }}>
               </div>
             )}
