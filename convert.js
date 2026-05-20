@@ -19,13 +19,13 @@ targetFiles.forEach(target => {
     const rawData = xlsx.utils.sheet_to_json(sheet, {header : 1});
 
     rawData.slice(1).forEach(row => {
-      const categoryMedium = row[0];
+      const categoryMedium = row[0] ? String(row[0]) : '';
       const metsValue = row[2];
       const categorySmall = row[3] ? String(row[3]).replace(/[\r\n]+/g, '') : '';
 
       finalJsonData.push({
         category_large: target.categoryLarge,
-        category_medium: categoryMedium,
+        category_medium: categoryMedium　,
         category_small: categorySmall,
         mets: metsValue,
       });
