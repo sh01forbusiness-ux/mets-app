@@ -79,6 +79,14 @@ export default function Header() {
                   活動履歴
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/bibliography"
+                  className={navItemStyle}
+                  onClick={() => setIsNavOpen(false)}>
+                  参考文献
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
@@ -95,6 +103,9 @@ export default function Header() {
           </li>
           <li>
             <Link href="/history" className={navItemStyle}>活動履歴</Link>
+          </li>
+          <li>
+            <Link href="/bibliography" className={navItemStyle}>参考文献</Link>
           </li>
         </ul>
       </nav>

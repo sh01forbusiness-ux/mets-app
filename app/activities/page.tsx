@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 
-
 export default function ActivitiesPage() {
   const [selectedCategory, setSelectedCategory] = useState<'' | 'adult' | 'senior' | 'wheelchair user'>('');
 
