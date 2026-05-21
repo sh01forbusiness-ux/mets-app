@@ -11,7 +11,7 @@ export default function HistoryPage() {
   const paragraphStyle = "pl-5 mt-4"
   const buttonStyle = "px-4 mx-2 rounded-full text-orange-500 bg-white border border-orange-500 hover:bg-orange-500 hover:text-white cursor-pointer duration-300"
   const inputStyle = "w-20 inline-block"
-  const recordStyle = "inline-block w-30 font-bold text-gray-700 mr-4"
+  const recordStyle = "inline-block font-bold text-gray-700 mr-4"
 
   // 入力値の管理
   const [inputValue, setInputValue] = useState<string>("23");
@@ -220,8 +220,8 @@ export default function HistoryPage() {
             {sevenDaysRecords.map((record) => (
               <li key={record.id} className="bg-white p-4 rounded shadow-sm flex justify-between items-center border">
                 <div>
-                  <span className={recordStyle}>{record.date}</span>
-                  <span className={recordStyle}>{record.mediumActivityCategory}</span>
+                  <span className={`${recordStyle} w-28`}>{record.date}</span>
+                  <span className={`${recordStyle} w-45`}>{record.mediumActivityCategory}</span>
                   <span className={`${recordStyle} text-red-500`}>{record.mets} メッツ</span>
                 </div>
 
