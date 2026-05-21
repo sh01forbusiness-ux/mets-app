@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# METs Compass
 
-## Getting Started
+## 概要
+身体活動の強度を表す指標である「METs（メッツ）」を用いて、日常の活動量を簡単に計算・把握できるWebアプリケーションです。
 
-First, run the development server:
+## 公開URL
+https://mets-app-zp6m.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 開発の背景
+医療やヘルスケアの現場において、正確な活動量を把握することは非常に重要です。しかし、METsの基準データは膨大であり、現場では煩雑なExcelファイル等で管理されることが少なくありません。
+本アプリは、そうしたデータを誰もがWeb上で直感的に計算・参照できる形にシステム化し、日常の健康管理や医療現場で役立つ、使いやすいツールを目指して開発しました。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 主な機能
+* 身体活動量の計算
+* 過去の入力履歴の閲覧・管理
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 使用技術
+* **フロントエンド:** React, Next.js, TypeScript
+* **デプロイ・ホスティング:** Vercel
+* **データ処理:** Node.js (ExcelからJSONへの変換処理)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 工夫した点・技術的なアピールポイント
+* **データ構造の最適化:** 膨大なMETsの基準データ（Excelファイル）をフロントエンドで高速に扱うため、専用のデータ変換スクリプト（`convert.js`）を独自に作成しました。フロントエンドでの処理に最適なJSON形式に変換しておくことで、アプリケーションのパフォーマンス向上を図っています。
+* **正確なフォーム処理とデータ取得:** ユーザーの入力値を正確に計算へ反映させるため、入力要素からの値取得には`.textContent`などの誤用を避け、`.value`プロパティを厳密に扱うなど、基本に忠実でバグの起きにくいデータハンドリングを徹底しました。
+* **モバイルを意識したUI設計:** 出先や隙間時間でも手軽に記録できるよう、スマートフォンでの閲覧に合わせたナビゲーションの実装など、レスポンシブなデザインを取り入れています。
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 今後の展望
+* 会員登録機能の追加により永続的な個人データの保存やより詳細な活動履歴の分析など機能が使用可能になるようバージョンアップしていく予定です。
