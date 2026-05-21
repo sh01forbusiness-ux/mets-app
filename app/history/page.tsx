@@ -122,9 +122,9 @@ export default function HistoryPage() {
           厚生労働省が健康日本21で取り決めた健康づくりの基準を公表しています。その基準としてメッツが使用されており、目標値は以下の通り定められています。
         </p>
         <ul className={paragraphStyle}>
-          <li>高齢者：身体活動 15メッツ以上 / 週</li>
-          <li>成人  ：身体活動 23メッツ以上 / 週（うち運動4メッツ以上）</li>
-          <li>こども：身体活動 毎日3メッツ（参考）</li>
+          <li><span className="w-12 inline-block text-center">高齢者</span>：身体活動 15メッツ以上 / 週</li>
+          <li><span className="w-12 inline-block text-center">成人</span>：身体活動 23メッツ以上 / 週（うち運動4メッツ以上）</li>
+          <li><span className="w-12 inline-block text-center">こども</span>：身体活動 毎日3メッツ（参考）</li>
         </ul>
         <p className={paragraphStyle}>
           ※上記は統計学的な目安であり、実際には運動習慣や疾病などに合わせた目標設定が推奨されています。<br />
@@ -197,7 +197,9 @@ export default function HistoryPage() {
           </div>
           <div className=" w-full text-center text-xl mt-4 ">
             {achievementRatio < 100 && sevenDaysRecords.length !== 0 && (
-              <p>目標達成まであと{Math.round((Number(targetValue) - totalMets) * 10) / 10}メッツ！</p>
+              <p>
+                目標達成まであと{Math.round((Number(targetValue) - totalMets) * 10) / 10}メッツ！
+                </p>
             )}
             {achievementRatio >= 100 && (
               <p>
