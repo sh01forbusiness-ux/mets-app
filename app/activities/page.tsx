@@ -45,7 +45,7 @@ export default function ActivitiesPage() {
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBrbUqk4VgHG3VthqdR5yEQPquRPFjzgau8BdaBuuHWiOQKq8wk7gUF0Jsas1PNA/pubhtml?gid=1789910876&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
             className="w-full h-120 block"></iframe>
           <p className='mt-4 text-left'>
-            この活動表は〇〇を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
+            この活動表は国立研究開発法人医薬基盤・健康・栄養研究所が公表する資料を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
           </p>
         </div>
       }
@@ -57,7 +57,7 @@ export default function ActivitiesPage() {
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXWtugwpZXVmBuj4lcKTmquhQz-RoCpdlgWqcBr8j-gjIP3LfrywaQo0cNmSZD8w/pubhtml?gid=1181218890&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false "
             className="w-full h-120 block"></iframe>
           <p className='mt-4 text-left'>
-            この活動表は〇〇を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
+            この活動表は国立研究開発法人医薬基盤・健康・栄養研究所が公表する資料を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
           </p>
         </div>
       }
