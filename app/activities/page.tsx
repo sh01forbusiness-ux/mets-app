@@ -10,11 +10,10 @@ export default function ActivitiesPage() {
     <main
       className="text-center">
       <label>
-        利用者分類を選択してください 
+        利用者分類を選択してください
       </label>
       <select
         name="users"
-        id=""
         value={selectedCategory}
         onChange={(e) => setSelectedCategory(e.target.value as '' | 'adult' | 'senior' | 'wheelchair user')}
         className="mx-4 mb-4 px-4 py-1 border rounded  w-45">
@@ -26,28 +25,41 @@ export default function ActivitiesPage() {
 
       {/* 未選択 */}
       {selectedCategory === "" &&
-        <div className="w-full h-100"></div>
+        <div className="w-full h-130"></div>
       }
       {/* 成人 */}
       {selectedCategory === "adult" &&
-        <iframe
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWETANOAQcAtILYWyD383cIpg0t8G_zB799xvNCjTUH-cojLN6MsZJ_b4IUZkgNw/pubhtml?gid=2020184611&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
-          className="w-full h-100"></iframe>
+        <div className='h-130 w-157 mx-auto flex flex-col items-center'>
+          <iframe
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWETANOAQcAtILYWyD383cIpg0t8G_zB799xvNCjTUH-cojLN6MsZJ_b4IUZkgNw/pubhtml?gid=2020184611&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
+            className="w-full h-120 block"></iframe>
+          <p className='mt-4 text-left'>
+            この活動表は〇〇を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
+          </p>
+        </div>
       }
 
       {/* 高齢者 */}
       {selectedCategory === "senior" &&
-        <iframe
-          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBrbUqk4VgHG3VthqdR5yEQPquRPFjzgau8BdaBuuHWiOQKq8wk7gUF0Jsas1PNA/pubhtml?gid=1789910876&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
-          className="w-full h-90"></iframe>
+        <div className='h-130 w-157 mx-auto flex flex-col items-center'>
+          <iframe
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBrbUqk4VgHG3VthqdR5yEQPquRPFjzgau8BdaBuuHWiOQKq8wk7gUF0Jsas1PNA/pubhtml?gid=1789910876&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
+            className="w-full h-120 block"></iframe>
+          <p className='mt-4 text-left'>
+            この活動表は〇〇を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
+          </p>
+        </div>
       }
 
       {/* 車椅子利用者 */}
       {selectedCategory === "wheelchair user" &&
-        <div className='flex justify-center'>
+        <div className='h-130 w-157 mx-auto flex flex-col items-center'>
           <iframe
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXWtugwpZXVmBuj4lcKTmquhQz-RoCpdlgWqcBr8j-gjIP3LfrywaQo0cNmSZD8w/pubhtml?gid=1181218890&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false "
-            className="w-full h-90"></iframe>
+            className="w-full h-120 block"></iframe>
+          <p className='mt-4 text-left'>
+            この活動表は〇〇を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
+          </p>
         </div>
       }
     </main>
