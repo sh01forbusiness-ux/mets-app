@@ -33,7 +33,7 @@ export default function ActivitiesPage() {
             src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSWETANOAQcAtILYWyD383cIpg0t8G_zB799xvNCjTUH-cojLN6MsZJ_b4IUZkgNw/pubhtml?gid=2020184611&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"
             className="w-full h-120 block"></iframe>
           <p className='mt-4 text-left'>
-            この活動表は〇〇を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
+            この活動表は国立研究開発法人医薬基盤・健康・栄養研究所が公表する資料を元に作成し、日本人の生活様式に合わせて項目名を一部改変しています。
           </p>
         </div>
       }
