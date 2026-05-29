@@ -3,7 +3,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import metsData from '../public/metsData.json';
 import Link from 'next/link';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, X } from 'lucide-react';
 
 type MetsItem = {
   category_large: string;
@@ -82,6 +82,14 @@ export default function Home() {
       item.category_medium === selectedMediumCategory
     )
   }, [selectedLargeCategory, selectedMediumCategory]);
+
+  // モーダル画面の閉じる設定
+  const handleModalClose = () => {
+    setIsModalOpen(false)
+    setSelectedLargeCategory("");
+    setSelectedMediumCategory("");
+    setSelectedSmallCategory("");
+  }
 
   // 活動時間の入力管理
   const [activityTime, setActivityTime] = useState<string>("");
@@ -186,29 +194,29 @@ export default function Home() {
         const historyArray: ActivityRecord[] = JSON.parse(existingData);
         if (historyArray.length > 0) {
           const lastRecord = historyArray[historyArray.length - 1];
-          if(lastRecord.gender === 'male' || lastRecord.gender === 'female'){
+          if (lastRecord.gender === 'male' || lastRecord.gender === 'female') {
             setGender(lastRecord.gender);
           };
-          if(lastRecord.weight !== null && lastRecord.weight > 0){
+          if (lastRecord.weight !== null && lastRecord.weight > 0) {
             setWeight(String(lastRecord.weight));
           };
-          if(lastRecord.largeActivityCategory){
+          if (lastRecord.largeActivityCategory) {
             setSelectedLargeCategory(String(lastRecord.largeActivityCategory));
           };
-          if(lastRecord.mediumActivityCategory){
+          if (lastRecord.mediumActivityCategory) {
             setSelectedMediumCategory(String(lastRecord.mediumActivityCategory));
           };
-          if(lastRecord.smallActivityCategory){
+          if (lastRecord.smallActivityCategory) {
             setSelectedSmallCategory(String(lastRecord.smallActivityCategory));
           };
-          if(lastRecord.activityTime){
+          if (lastRecord.activityTime) {
             setActivityTime(String(lastRecord.activityTime));
           };
         }
       } catch {
         console.log('過去データの読み込みに失敗しました。');
       }
-  }
+    }
   }, []);
   return (
     <>
@@ -369,16 +377,18 @@ export default function Home() {
       {isModalOpen && (
         <div
           className="fixed inset-0 bg-black/50 flex justify-center items-center p-4 z-50"
-          onClick={
-            () => {
-              setIsModalOpen(false)
-              setSelectedLargeCategory("");
-              setSelectedMediumCategory("");
-              setSelectedSmallCategory("");
-            }}>
+          onClick={handleModalClose}>
           <div
             className="bg-white rounded-xl p-6 w-full max-w-md"
             onClick={(e) => e.stopPropagation()}>
+            <div className='flex justify-end'>
+              <button
+                className='rounded-xl p-2 hover:bg-gray-300 duration-300 block'
+                onClick={handleModalClose}>
+                <X size={24} />
+              </button>
+
+            </div>
             <h3 className="font-bold text-lg mb-4 text-center">活動内容</h3>
 
             <div className="min-h-\[150px]\ flex flex-col gap-4 text-gray-700">
