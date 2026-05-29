@@ -17,7 +17,9 @@ export type ActivityRecord = {
   date: string,
   gender: string,
   weight: number | null,
+  largeActivityCategory: string,
   mediumActivityCategory: string,
+  smallActivityCategory: string,
   activityTime: number | null,
   mets: number | null,
   calories: number | null,
@@ -152,14 +154,16 @@ export default function Home() {
     }
   }, [resultMets]);
 
-  // 計算結果の保存
+  // 計算内容の保存
   const saveActivityLog = () => {
     const newRecord: ActivityRecord = {
       id: Date.now(),
       date: date,
       gender: gender,
       weight: Number(weight),
+      largeActivityCategory: selectedLargeCategory,
       mediumActivityCategory: selectedMediumCategory,
+      smallActivityCategory: selectedSmallCategory,
       activityTime: Number(activityTime),
       mets: resultMets,
       calories: resultCalories,
@@ -174,6 +178,38 @@ export default function Home() {
     alert('保存が完了しました。');
   }
 
+  // 入力値の履歴引用
+  useEffect(() => {
+    const existingData = localStorage.getItem('metsHistory');
+    if (existingData) {
+      try {
+        const historyArray: ActivityRecord[] = JSON.parse(existingData);
+        if (historyArray.length > 0) {
+          const lastRecord = historyArray[historyArray.length - 1];
+          if(lastRecord.gender === 'male' || lastRecord.gender === 'female'){
+            setGender(lastRecord.gender);
+          };
+          if(lastRecord.weight !== null && lastRecord.weight > 0){
+            setWeight(String(lastRecord.weight));
+          };
+          if(lastRecord.largeActivityCategory){
+            setSelectedLargeCategory(String(lastRecord.largeActivityCategory));
+          };
+          if(lastRecord.mediumActivityCategory){
+            setSelectedMediumCategory(String(lastRecord.mediumActivityCategory));
+          };
+          if(lastRecord.smallActivityCategory){
+            setSelectedSmallCategory(String(lastRecord.smallActivityCategory));
+          };
+          if(lastRecord.activityTime){
+            setActivityTime(String(lastRecord.activityTime));
+          };
+        }
+      } catch {
+        console.log('過去データの読み込みに失敗しました。');
+      }
+  }
+  }, []);
   return (
     <>
       <div className={cardStyle}>
@@ -230,7 +266,6 @@ export default function Home() {
                 <span className="mx-1">女性</span>
               </label>
             </div>
-
 
             <div>
               <span className={itemName}>体重</span>
@@ -317,7 +352,7 @@ export default function Home() {
           <div className='flex justify-center'>
             <ArrowDown
               size={32}
-              className='text-orange-500 animate-bounce'/>
+              className='text-orange-500 animate-bounce' />
           </div>
           <p className={`${paragraphStyle} text-center`}>
             活動履歴は
