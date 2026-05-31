@@ -59,6 +59,7 @@ export default function Home() {
     weightValue = weightValue.replace(/。/g, '.')
     weightValue = weightValue.replace(/[^0-9.]/g, '');
     setWeight(weightValue);
+    resetResult();
   }
 
   // モーダルの表示設定
@@ -92,8 +93,6 @@ export default function Home() {
   }
 
   // 活動時間の入力管理
-  const [activityTime, setActivityTime] = useState<string>("");
-
   const handleActivityTimeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     let timeValue = e.target.value;
     timeValue = timeValue.replace(/[０-９]/g, (s) =>
@@ -105,9 +104,11 @@ export default function Home() {
       timeValue.slice(0, 4)
     }
     setActivityTime(timeValue);
+    resetResult();
   }
 
   // クリアボタンの設定
+  const [activityTime, setActivityTime] = useState<string>("");
   const handleClear = () => {
     setDate("");
     setGender("");
@@ -116,14 +117,17 @@ export default function Home() {
     setSelectedMediumCategory("");
     setSelectedLargeCategory("");
     setActivityTime("");
+    resetResult();
+  }
+  
+  // 計算結果
+  const resetResult = () => {
     setResultMets(null);
-    setResultCarories(null);
+    setResultCalories(null);
     setIsSaved(false);
   }
-
-  // 計算結果
   const [resultMets, setResultMets] = useState<number | null>(null);
-  const [resultCalories, setResultCarories] = useState<number | null>(null);
+  const [resultCalories, setResultCalories] = useState<number | null>(null);
   const [isSaved, setIsSaved] = useState<boolean>(false);
   const selectedMets = smallCategoriesArray.find(
     (item: MetsItem) => item.category_small === selectedSmallCategory
@@ -148,8 +152,8 @@ export default function Home() {
     } else {
       const calculatedMets = Math.round(selectedMets * Number(activityTime) / 60 * 10) / 10;
       setResultMets(calculatedMets);
-      const calculatedCarories = Math.round(selectedMets * Number(weight) * Number(activityTime) / 60 * 1.05);
-      setResultCarories(calculatedCarories);
+      const calculatedCalories = Math.round(selectedMets * Number(weight) * Number(activityTime) / 60 * 1.05);
+      setResultCalories(calculatedCalories);
       setIsSaved(false);
     }
   }
@@ -261,7 +265,7 @@ export default function Home() {
               <input
                 type="date"
                 value={date}
-                onChange={(e) => setDate(e.target.value)}
+                onChange={(e) => {setDate(e.target.value); resetResult();}}
                 className={inputStyle} />
             </div>
 
@@ -275,7 +279,7 @@ export default function Home() {
                   name="Gender"
                   value="male"
                   checked={gender === "male"}
-                  onChange={() => setGender("male")} />
+                  onChange={() => {setGender("male"); resetResult();}} />
                 <span className="mx-1">男性</span>
               </label>
 
@@ -284,7 +288,7 @@ export default function Home() {
                   type="radio"
                   name="Gender"
                   value="female"
-                  onChange={() => setGender("female")}
+                  onChange={() => {setGender("female"); resetResult();}}
                   checked={gender === "female"}
                 />
                 <span className="mx-1">女性</span>
@@ -299,7 +303,7 @@ export default function Home() {
                 className={inputStyle}
                 value={weight}
                 maxLength={5}
-                onChange={handleWeightInput} />
+                onChange={(e) => handleWeightInput(e)} />
               <span className={unit}>kg</span>
             </div>
 
@@ -308,11 +312,7 @@ export default function Home() {
               <span className={itemName}>活動内容</span>
               <button type="button"
                 className={inputStyle}
-                onClick={
-                  () => {
-                    setIsModalOpen(true)
-                  }
-                } >
+                onClick={() => setIsModalOpen(true)} >
                 {selectedSmallCategory ? selectedSmallCategory.slice(0, 10) + "..." : "選択してください 　▼"}
               </button>
             </div>
@@ -324,7 +324,7 @@ export default function Home() {
                 className={inputStyle}
                 value={activityTime}
                 maxLength={4}
-                onChange={handleActivityTimeInput} />
+                onChange={(e) => handleActivityTimeInput(e)} />
               <span className={unit}>分</span>
             </div>
 
@@ -373,23 +373,23 @@ export default function Home() {
               活動履歴として保存する
             </button>
           </output>
-            {isSaved &&
+          {isSaved &&
             <>
-          <div className='flex justify-center'>
-            <ArrowDown
-              size={32}
-              className='text-orange-500 animate-bounce' />
-          </div>
-            <p
-              className={`${paragraphStyle} text-center`}
-              ref={linkRef}>
-              活動履歴は
-              <Link
-                href="/history"
-                className='text-sky-950 font-bold'>
-                こちら
-              </Link>
-            </p>
+              <div className='flex justify-center'>
+                <ArrowDown
+                  size={32}
+                  className='text-orange-500 animate-bounce' />
+              </div>
+              <p
+                className={`${paragraphStyle} text-center`}
+                ref={linkRef}>
+                活動履歴は
+                <Link
+                  href="/history"
+                  className='text-sky-950 font-bold'>
+                  こちら
+                </Link>
+              </p>
             </>
           }
         </>
@@ -426,6 +426,7 @@ export default function Home() {
                       setSelectedLargeCategory(e.target.value);
                       setSelectedMediumCategory("");
                       setSelectedSmallCategory("");
+                      resetResult();
                     }
                   }
                 >
@@ -449,6 +450,7 @@ export default function Home() {
                       (e) => {
                         setSelectedMediumCategory(e.target.value);
                         setSelectedSmallCategory("");
+                        resetResult();
                       }
                     }
                   >
@@ -469,7 +471,7 @@ export default function Home() {
                   <select
                     className="w-full border rounded p-2 bg-white"
                     value={selectedSmallCategory}
-                    onChange={(e) => setSelectedSmallCategory(e.target.value)}
+                    onChange={(e) => {setSelectedSmallCategory(e.target.value); resetResult();}}
                   >
                     <option value="">選択してください</option>
                     {smallCategoriesArray.map((item: MetsItem, index: number) => (
