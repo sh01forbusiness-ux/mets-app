@@ -118,11 +118,13 @@ export default function Home() {
     setActivityTime("");
     setResultMets(null);
     setResultCarories(null);
+    setIsSaved(false);
   }
 
   // 計算結果
   const [resultMets, setResultMets] = useState<number | null>(null);
   const [resultCalories, setResultCarories] = useState<number | null>(null);
+  const [isSaved, setIsSaved] = useState<boolean>(false);
   const selectedMets = smallCategoriesArray.find(
     (item: MetsItem) => item.category_small === selectedSmallCategory
   )?.mets;
@@ -148,6 +150,7 @@ export default function Home() {
       setResultMets(calculatedMets);
       const calculatedCarories = Math.round(selectedMets * Number(weight) * Number(activityTime) / 60 * 1.05);
       setResultCarories(calculatedCarories);
+      setIsSaved(false);
     }
   }
 
@@ -184,6 +187,7 @@ export default function Home() {
     activityRecords.push(newRecord);
     localStorage.setItem('metsHistory', JSON.stringify(activityRecords));
     alert('保存が完了しました。');
+    setIsSaved(true);
   }
 
   // 入力値の履歴引用
@@ -218,6 +222,18 @@ export default function Home() {
       }
     }
   }, []);
+
+  // 活動履歴へのリンク表示切り替え
+  const linkRef = useRef<HTMLParagraphElement>(null);
+  useEffect(() => {
+    if (isSaved === true && linkRef.current) {
+      linkRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+      });
+    }
+  }, [isSaved]);
+
   return (
     <>
       <div className={cardStyle}>
@@ -357,19 +373,25 @@ export default function Home() {
               活動履歴として保存する
             </button>
           </output>
+            {isSaved &&
+            <>
           <div className='flex justify-center'>
             <ArrowDown
               size={32}
               className='text-orange-500 animate-bounce' />
           </div>
-          <p className={`${paragraphStyle} text-center`}>
-            活動履歴は
-            <Link
-              href="/history"
-              className='text-sky-950 font-bold'>
-              こちら
-            </Link>
-          </p>
+            <p
+              className={`${paragraphStyle} text-center`}
+              ref={linkRef}>
+              活動履歴は
+              <Link
+                href="/history"
+                className='text-sky-950 font-bold'>
+                こちら
+              </Link>
+            </p>
+            </>
+          }
         </>
       }
 
