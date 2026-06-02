@@ -35,6 +35,7 @@ export default function Home() {
   const itemName = "w-20 item-center inline-block"
   const unit = "ml-2"
   const buttonStyle = "px-4 mx-2 rounded-full text-orange-500 bg-white border border-orange-500 hover:bg-orange-500 hover:text-white cursor-pointer duration-300"
+  const linkStyle = "text-orange-500 hover:underline";
 
   // 日付の入力管理
   const getToday = () => {
@@ -248,7 +249,7 @@ export default function Home() {
           詳細は
           <Link
             href="/about"
-            className='font-bold'>
+            className={linkStyle}>
             こちら
           </Link>
         </p>
@@ -386,7 +387,7 @@ export default function Home() {
                 活動履歴は
                 <Link
                   href="/history"
-                  className='text-sky-950 font-bold'>
+                  className={linkStyle}>
                   こちら
                 </Link>
               </p>
